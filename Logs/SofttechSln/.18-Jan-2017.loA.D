@@ -1,0 +1,210 @@
+14:02:38 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:09:06 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:11:03 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:14:05 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:17:50 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:21:50 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:23:24 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:39:29 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:57:04 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+14:58:27 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+15:04:33 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+15:05:48 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+15:07:17 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+15:08:06 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+15:48:32 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+15:49:01 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+16:07:20 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+16:10:54 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+16:36:41 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+16:38:19 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+
+16:48:34 - 1/18/2017 @@Debug: Login->SELECT U.USRID, EXPDT, UC.COMPC, UB.BRNCH,
+                 SAL_CODENAME('COMPC',UC.COMPC,NULL) AS COMPANY_NAME, SAL_CODENAME('BRNCH',UB.BRNCH,NULL) AS BRANCH_NAME
+                 FROM SEC_USERNAME U                 
+                 LEFT JOIN SEC_USERCMPN UC
+                      ON U.USRID = UC.USRID 
+                 LEFT JOIN SEC_USERBRCH UB
+                      ON U.USRID = UB.USRID 
+                 WHERE UPPER(U.DESCR) = 'GHULAM MOHIUDDIN' 
+                    AND U.PASWD = (SELECT COM_BALANCE.PayableZ(UPPER('12345678') || U.USRID || U.DESCR) FROM DUAL)
+

@@ -1,0 +1,18 @@
+1/26/2017 12:20:06 PM
+select STOR# from str_stores_m   where  BRNCH   ='001' and deflt ='Y'
+*********************************************
+1/26/2017 12:20:07 PM
+select STOR# from str_stores_m   where  BRNCH   ='001' and deflt ='Y'
+*********************************************
+1/26/2017 12:29:37 PM
+select STOR# from str_stores_m   where  BRNCH   ='001' and deflt ='Y'
+*********************************************
+1/26/2017 12:29:38 PM
+select STOR# from str_stores_m   where  BRNCH   ='001' and deflt ='Y'
+*********************************************
+1/26/2017 12:35:01 PM
+select STOR# from str_stores_m   where  BRNCH   ='001' and deflt ='Y'
+*********************************************
+1/26/2017 12:35:01 PM
+select STOR# from str_stores_m   where  BRNCH   ='001' and deflt ='Y'
+*********************************************

@@ -1,0 +1,60 @@
+1/27/2017 11:11:07 AM
+ORA-12170: TNS:Connect timeout occurred
+
+*********************************************
+1/27/2017 11:11:07 AM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.StockAuditDAO.GetAud2(String lineno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 134
+   at SND.Models.StockAudit2.GetPK04(String OT) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 112
+   at SND.Models.StockAudit2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 132
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/27/2017 12:27:19 PM
+ORA-00904: "T"."USERID": invalid identifier
+
+*********************************************
+1/27/2017 12:27:19 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.DeleteNotNeededForAudit(String ID, String REFNO, String TABLENAME, String IDCOULMN, String USERID) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1618
+*********************************************
+1/27/2017 12:28:45 PM
+ORA-12170: TNS:Connect timeout occurred
+
+*********************************************
+1/27/2017 12:28:45 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.StockAuditDAO.GetAud2(String lineno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 134
+   at SND.Models.StockAudit2.GetPK04(String OT) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 112
+   at SND.Models.StockAudit2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 132
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/27/2017 12:32:49 PM
+ORA-12170: TNS:Connect timeout occurred
+
+*********************************************
+1/27/2017 12:32:49 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.StockAuditDAO.GetAud2(String lineno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 134
+   at SND.Models.StockAudit2.GetPK04(String OT) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 112
+   at SND.Models.StockAudit2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 132
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/27/2017 5:27:21 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+1/27/2017 5:27:30 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+1/27/2017 5:27:38 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+1/27/2017 5:28:00 PM
+select STOR# from str_stores_m   where  BRNCH   ='001' 
+*********************************************
+1/27/2017 5:28:10 PM
+select STOR# from str_stores_m   where  BRNCH   ='001' 
+*********************************************

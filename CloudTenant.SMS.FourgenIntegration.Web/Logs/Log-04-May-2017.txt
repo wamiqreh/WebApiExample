@@ -1,0 +1,154 @@
+5/4/2017 3:57:39 PM
+select po.PO_NO ID,'Y' POSTEDYN, 
+       ACTIV, 
+       CASE po.APROV 
+         WHEN 'A' THEN 
+          'Y' 
+         ELSE 
+          'N' 
+       END APPROVALYN, 
+       'N' BLOCKEDYN, 
+       DlvTO OFFICECODESHIPTO, 
+       com_codename('BRNCH', po.dlvto, NULL) OFFICECODE_SHIPTONAME, 
+       po.dlvto OFFICECODEBILLTO, 
+       com_codename('BRNCH', po.dlvto, NULL) OFFICECODE_BILLTONAME, 
+       po.PO_NO DOCUMENTNO, 
+       TO_CHAR(po.WDATE, 'dd-Mon-yyyy') WORKDATE, 
+       po.usrid USERCODEREQUESTEDBY, 
+       com_codename('USERS', po.usrid, null) USERCODEREQUESTBYNAME, 
+       po.supcd BUSINESSPARTNERCODE, 
+       (select s.descr from sal_cus_mast s where s.custm = po.supcd) BUSINESSPARTNERNAME, 
+       po.curcd CURENCYCODE, 
+       (select descr from com_currency c where c.curcd = po.curcd) CURRENCYNAME,' ' CURRENCYRATE, 
+       CASE po.potyp 
+         WHEN 'L' THEN 
+          'Local' 
+         ELSE 
+          'Imported' 
+       END POISLOCALORIMPORTED, 
+       ' ' COUNTRYCODE, 
+       '  ' COUNTRYNAME, 
+       po.pterm PAYMENTTERMCODE, 
+       (select descr from COM_PAYMENTT where pmtcd = po.pterm) PAYMENTTERMNAME, 
+       po.tolrc TOLERENCEPERCENTAGE, 
+       po.revsn POREVISIONNO, 
+       po.deldt DELIVERYDATE, 
+       TO_CHAR(po.povalidup2, 'dd-Mon-yyyy') POVALIDUPTO, 
+       sum(pod.ord_q) NUMBEROFITEMS, 
+       sum(pod.grosv + pod.gst_a) POVALUE, 
+       round(avg(pod.dis_p), 2) PODISCOUNTPERCENTAGE, 
+       sum(pod.dis_a) PODISCOUNTAMOUNT, 
+       round(sum(pod.amont), 2) POROUNDAMOUNT, 
+        
+       sum(pod.amont) PONETVALUE,'' REFERENCENO ,''DETAILS ,( SELECT DESCR FROM STR_STORES_M WHERE STOR# =PO.STR_F)ORIGIONOFSHIPMENT 
+   ,''EXTRAFIELDS01,''EXTRAFIELDS02,''EXTRAFIELDS03,''EXTRAFIELDS04,''EXTRAFIELDS05,''EXTRAFIELDS06,''EXTRAFIELDS07,''EXTRAFIELDS08,''EXTRAFIELDS09,''EXTRAFIELDS10 
+  from str_purord_1 po 
+  left outer join str_purord_2 pod on pod.po_no = po.po_no 
+ where (po.po_no = '00552.1617.1.001.PO' 
+    or po.supcd = '%' ) 
+    and po.BRNCH ='001' 
+    and po.compc ='1' 
+ group by po.PO_NO, 
+          ACTIV, 
+          po.APROV, 
+          DlvTO, 
+          po.dlvto, 
+          po.dlvto, 
+          po.dlvto, 
+          po.PO_NO, 
+          po.WDATE, 
+          po.usrid, 
+          po.usrid, 
+          po.supcd, 
+          po.supcd, 
+          po.curcd, 
+          po.potyp, 
+          po.pterm, 
+          po.tolrc, 
+          po.revsn, 
+          po.deldt, 
+          po.povalidup2,PO.STR_F
+*********************************************
+5/4/2017 3:57:44 PM
+Function Start
+*********************************************
+5/4/2017 3:57:59 PM
+select po.PO_NO ID,'Y' POSTEDYN, 
+       ACTIV, 
+       CASE po.APROV 
+         WHEN 'A' THEN 
+          'Y' 
+         ELSE 
+          'N' 
+       END APPROVALYN, 
+       'N' BLOCKEDYN, 
+       DlvTO OFFICECODESHIPTO, 
+       com_codename('BRNCH', po.dlvto, NULL) OFFICECODE_SHIPTONAME, 
+       po.dlvto OFFICECODEBILLTO, 
+       com_codename('BRNCH', po.dlvto, NULL) OFFICECODE_BILLTONAME, 
+       po.PO_NO DOCUMENTNO, 
+       TO_CHAR(po.WDATE, 'dd-Mon-yyyy') WORKDATE, 
+       po.usrid USERCODEREQUESTEDBY, 
+       com_codename('USERS', po.usrid, null) USERCODEREQUESTBYNAME, 
+       po.supcd BUSINESSPARTNERCODE, 
+       (select s.descr from sal_cus_mast s where s.custm = po.supcd) BUSINESSPARTNERNAME, 
+       po.curcd CURENCYCODE, 
+       (select descr from com_currency c where c.curcd = po.curcd) CURRENCYNAME,' ' CURRENCYRATE, 
+       CASE po.potyp 
+         WHEN 'L' THEN 
+          'Local' 
+         ELSE 
+          'Imported' 
+       END POISLOCALORIMPORTED, 
+       ' ' COUNTRYCODE, 
+       '  ' COUNTRYNAME, 
+       po.pterm PAYMENTTERMCODE, 
+       (select descr from COM_PAYMENTT where pmtcd = po.pterm) PAYMENTTERMNAME, 
+       po.tolrc TOLERENCEPERCENTAGE, 
+       po.revsn POREVISIONNO, 
+       po.deldt DELIVERYDATE, 
+       TO_CHAR(po.povalidup2, 'dd-Mon-yyyy') POVALIDUPTO, 
+       sum(pod.ord_q) NUMBEROFITEMS, 
+       sum(pod.grosv + pod.gst_a) POVALUE, 
+       round(avg(pod.dis_p), 2) PODISCOUNTPERCENTAGE, 
+       sum(pod.dis_a) PODISCOUNTAMOUNT, 
+       round(sum(pod.amont), 2) POROUNDAMOUNT, 
+        
+       sum(pod.amont) PONETVALUE,'' REFERENCENO ,''DETAILS ,( SELECT DESCR FROM STR_STORES_M WHERE STOR# =PO.STR_F)ORIGIONOFSHIPMENT 
+   ,''EXTRAFIELDS01,''EXTRAFIELDS02,''EXTRAFIELDS03,''EXTRAFIELDS04,''EXTRAFIELDS05,''EXTRAFIELDS06,''EXTRAFIELDS07,''EXTRAFIELDS08,''EXTRAFIELDS09,''EXTRAFIELDS10 
+  from str_purord_1 po 
+  left outer join str_purord_2 pod on pod.po_no = po.po_no 
+ where (po.po_no = '00552.1617.1.001.PO' 
+    or po.supcd = '%' ) 
+    and po.BRNCH ='001' 
+    and po.compc ='1' 
+ group by po.PO_NO, 
+          ACTIV, 
+          po.APROV, 
+          DlvTO, 
+          po.dlvto, 
+          po.dlvto, 
+          po.dlvto, 
+          po.PO_NO, 
+          po.WDATE, 
+          po.usrid, 
+          po.usrid, 
+          po.supcd, 
+          po.supcd, 
+          po.curcd, 
+          po.potyp, 
+          po.pterm, 
+          po.tolrc, 
+          po.revsn, 
+          po.deldt, 
+          po.povalidup2,PO.STR_F
+*********************************************
+5/4/2017 3:58:25 PM
+Function Start
+*********************************************
+5/4/2017 3:58:46 PM
+Function Start
+*********************************************
+5/4/2017 4:05:29 PM
+Function Start
+*********************************************

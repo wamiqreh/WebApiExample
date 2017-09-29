@@ -1,0 +1,276 @@
+12/23/2016 4:09:31 PM
+ORA-01861: literal does not match format string
+
+*********************************************
+12/23/2016 4:09:32 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 651
+*********************************************
+12/23/2016 4:11:24 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 4:11:24 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 651
+*********************************************
+12/23/2016 4:11:26 PM
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+*********************************************
+12/23/2016 4:11:26 PM
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 242
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 166
+*********************************************
+12/23/2016 5:07:48 PM
+String was not recognized as a valid DateTime.
+*********************************************
+12/23/2016 5:07:48 PM
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 63
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 161
+*********************************************
+12/23/2016 5:08:07 PM
+String was not recognized as a valid DateTime.
+*********************************************
+12/23/2016 5:08:07 PM
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 63
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 161
+*********************************************
+12/23/2016 5:10:18 PM
+ORA-01847: day of month must be between 1 and last day of month
+
+*********************************************
+12/23/2016 5:10:18 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 670
+*********************************************
+12/23/2016 5:30:50 PM
+ORA-00001: unique constraint (GV.SYS_C00183035) violated
+
+*********************************************
+12/23/2016 5:30:51 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 670
+*********************************************
+12/23/2016 5:37:58 PM
+ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "GV.STR_GRN_NO", line 25
+
+*********************************************
+12/23/2016 5:37:58 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetMaxGrn1(String compc, String brnch) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 609
+   at SND.Models.GOODRECIEVE2.GetPK(String grn) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 151
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 271
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 167
+*********************************************
+12/23/2016 5:52:38 PM
+Value cannot be null.
+Parameter name: s
+*********************************************
+12/23/2016 5:52:38 PM
+   at System.Convert.FromBase64String(String s)
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 64
+*********************************************
+12/23/2016 5:53:42 PM
+Invalid character after parsing property name. Expected ':' but got: ,. Path 'reg_id', line 22, position 6.
+*********************************************
+12/23/2016 5:53:42 PM
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at SND.APIBase.GetRawResponse[T]() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Base\APIBase.cs:line 37
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 51
+*********************************************
+12/23/2016 5:54:38 PM
+End of Central Directory record could not be found.
+*********************************************
+12/23/2016 5:54:38 PM
+   at System.IO.Compression.ZipArchive.ReadEndOfCentralDirectory()
+   at System.IO.Compression.ZipArchive.Init(Stream stream, ZipArchiveMode mode, Boolean leaveOpen)
+   at System.IO.Compression.ZipArchive..ctor(Stream stream, ZipArchiveMode mode, Boolean leaveOpen, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipArchive..ctor(Stream stream)
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 67
+*********************************************
+12/23/2016 6:02:39 PM
+ORA-02291: integrity constraint (GV.SYS_C00183915) violated - parent key not found
+
+*********************************************
+12/23/2016 6:02:39 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 670
+*********************************************
+12/23/2016 6:02:40 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 6:02:40 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 670
+*********************************************
+12/23/2016 6:02:40 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 6:02:40 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 687
+*********************************************
+12/23/2016 6:02:41 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 6:02:41 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 687
+*********************************************
+12/23/2016 6:02:41 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 6:02:41 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 687
+*********************************************
+12/23/2016 6:09:07 PM
+The device is not ready.
+
+*********************************************
+12/23/2016 6:09:07 PM
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 63
+*********************************************
+12/23/2016 6:12:02 PM
+ORA-02291: integrity constraint (GV.SYS_C00183915) violated - parent key not found
+
+*********************************************
+12/23/2016 6:12:02 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 670
+*********************************************
+12/23/2016 6:12:02 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 6:12:02 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 670
+*********************************************
+12/23/2016 6:12:02 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 6:12:02 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 689
+*********************************************
+12/23/2016 6:12:03 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 6:12:03 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 689
+*********************************************
+12/23/2016 6:12:03 PM
+ORA-00936: missing expression
+
+*********************************************
+12/23/2016 6:12:03 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 689
+*********************************************
+12/23/2016 6:15:37 PM
+ORA-02291: integrity constraint (GV.SYS_C00183915) violated - parent key not found
+
+*********************************************
+12/23/2016 6:15:37 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 670
+*********************************************
+12/23/2016 6:15:37 PM
+Bad Data Format
+*********************************************
+12/23/2016 6:15:37 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 678
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 66
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 94
+*********************************************

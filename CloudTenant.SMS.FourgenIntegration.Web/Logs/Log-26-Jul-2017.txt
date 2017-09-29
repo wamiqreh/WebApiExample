@@ -1,0 +1,28 @@
+7/26/2017 4:27:58 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 54
+*********************************************
+7/26/2017 4:28:09 PM
+Value cannot be null.
+Parameter name: source
+*********************************************
+7/26/2017 4:28:09 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 79
+   at SND.BusinessObjects.LoginBO.GetLogininfoByCredentials(String username, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\LoginBO.cs:line 147
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 57
+*********************************************
+7/26/2017 4:33:32 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 54
+*********************************************
+7/26/2017 4:33:33 PM
+Value cannot be null.
+Parameter name: source
+*********************************************
+7/26/2017 4:33:33 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 79
+   at SND.BusinessObjects.LoginBO.GetLogininfoByCredentials(String username, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\LoginBO.cs:line 147
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 57
+*********************************************

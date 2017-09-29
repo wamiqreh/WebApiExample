@@ -1,0 +1,91 @@
+1/20/2017 6:06:18 PM
+ORA-01017: invalid username/password; logon denied
+
+*********************************************
+1/20/2017 6:06:18 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.TransferOutDAO.GetTO(String grnno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 76
+   at SND.Models.TransferOut.GetPK() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut.cs:line 72
+   at SND.Models.TransferOut.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut.cs:line 93
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************
+1/20/2017 6:07:57 PM
+ORA-00001: unique constraint (CHASE.SYS_C0037919) violated
+
+*********************************************
+1/20/2017 6:07:57 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut1(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 87
+*********************************************
+1/20/2017 6:08:14 PM
+Bad Data Format
+*********************************************
+1/20/2017 6:08:14 PM
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut1(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 96
+   at SND.Models.TransferOut.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut.cs:line 115
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************
+1/20/2017 6:08:52 PM
+ORA-00001: unique constraint (CHASE.SYS_C0037919) violated
+
+*********************************************
+1/20/2017 6:08:52 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut1(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 87
+*********************************************
+1/20/2017 6:08:52 PM
+Bad Data Format
+*********************************************
+1/20/2017 6:08:52 PM
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut1(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 96
+   at SND.Models.TransferOut.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut.cs:line 115
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************
+1/20/2017 6:09:15 PM
+ORA-00001: unique constraint (CHASE.SYS_C0037919) violated
+
+*********************************************
+1/20/2017 6:09:15 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut1(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 87
+*********************************************
+1/20/2017 6:09:15 PM
+Bad Data Format
+*********************************************
+1/20/2017 6:09:15 PM
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut1(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 96
+   at SND.Models.TransferOut.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut.cs:line 115
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************
+1/20/2017 6:09:44 PM
+ORA-00001: unique constraint (CHASE.SYS_C0037919) violated
+
+*********************************************
+1/20/2017 6:09:44 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut1(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 87
+*********************************************
+1/20/2017 6:09:44 PM
+Bad Data Format
+*********************************************
+1/20/2017 6:09:44 PM
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut1(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 96
+   at SND.Models.TransferOut.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut.cs:line 115
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************

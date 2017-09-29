@@ -1,0 +1,58 @@
+2/24/2017 11:53:43 AM
+After parsing a value an unexpected character was encountered: ". Path 'user_id', line 10, position 1.
+*********************************************
+2/24/2017 11:53:43 AM
+   at Newtonsoft.Json.JsonTextReader.ParsePostValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at SND.APIBase.GetRawResponse[T]() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Base\APIBase.cs:line 37
+   at SND.Controllers.StoreController.GetOffileProductsByType() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\StoreController.cs:line 238
+*********************************************
+2/24/2017 4:00:02 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/24/2017 4:01:35 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/24/2017 4:02:51 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/24/2017 4:03:50 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/24/2017 4:03:56 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/24/2017 4:03:56 PM
+   at SND.Utils.ReponseHandler..ctor() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Utils\ReponseHandler.cs:line 14
+   at SND.Models.TransferOut.Insert(List`1 errStack) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut.cs:line 174
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 183
+*********************************************
+2/24/2017 4:05:15 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/24/2017 4:05:47 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/24/2017 4:05:47 PM
+   at SND.Utils.ReponseHandler.GenerateResponse(String Id, String MapCode, Type ClassName, String UserCode, String Message, String isDel, String isError) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Utils\ReponseHandler.cs:line 48
+   at SND.Models.TransferOut2.Insert(List`1 rp, List`1 errStack) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut2.cs:line 227
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 185
+*********************************************
+2/24/2017 4:06:04 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/24/2017 4:09:45 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/24/2017 4:10:41 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************

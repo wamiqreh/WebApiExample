@@ -1,0 +1,209 @@
+1/25/2017 11:53:33 AM
+Object reference not set to an instance of an object.
+*********************************************
+1/25/2017 11:53:33 AM
+   at SND.BusinessObjects.RemoteSearchBO.GetAudByDocNumber(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\SearchBO.cs:line 60
+   at SND.Controllers.StoreController.GetAuditDetailsByAuditNo() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\StoreController.cs:line 242
+*********************************************
+1/25/2017 3:47:07 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/25/2017 3:47:07 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.ItemDAO.GetTODetail(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1476
+   at DAL.ProductInformationQueryDMLs.GetTODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 305
+*********************************************
+1/25/2017 3:47:10 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/25/2017 3:47:10 PM
+   at DAL.ProductInformationQueryDMLs.GetTODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 315
+   at SND.Models.TransferIn2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn2.cs:line 113
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/25/2017 3:47:38 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/25/2017 3:47:38 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.ItemDAO.GetTODetail(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1476
+   at DAL.ProductInformationQueryDMLs.GetTODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 305
+*********************************************
+1/25/2017 3:47:42 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/25/2017 3:47:42 PM
+   at DAL.ProductInformationQueryDMLs.GetTODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 315
+   at SND.Models.TransferIn2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn2.cs:line 113
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/25/2017 4:11:50 PM
+ORA-00927: missing equal sign
+
+*********************************************
+1/25/2017 4:11:50 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 152
+*********************************************
+1/25/2017 4:11:54 PM
+Bad Data Format
+*********************************************
+1/25/2017 4:11:54 PM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 161
+   at SND.Models.StockAudit.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit.cs:line 112
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 195
+*********************************************
+1/25/2017 4:15:09 PM
+ORA-00927: missing equal sign
+
+*********************************************
+1/25/2017 4:15:09 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 152
+*********************************************
+1/25/2017 4:15:09 PM
+Bad Data Format
+*********************************************
+1/25/2017 4:15:09 PM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 161
+   at SND.Models.StockAudit.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit.cs:line 112
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 195
+*********************************************
+1/25/2017 4:41:46 PM
+ORA-12170: TNS:Connect timeout occurred
+
+*********************************************
+1/25/2017 4:41:46 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.StockAuditDAO.GetAud2(String lineno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 135
+   at SND.Models.StockAudit2.GetPK04(String OT) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 111
+   at SND.Models.StockAudit2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 131
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/25/2017 4:48:20 PM
+Input string was not in a correct format.
+*********************************************
+1/25/2017 4:48:20 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.StockAuditDAO.InsertAudit04(String AUDNO, String USRID, String LOGNO, String LINENO, String BARCODE, String ITEMS, String AUD_Q, String NOTES, String ITEMS_NAME, String ACT_BARCD, String AISLESNO, String BAYNO, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 211
+*********************************************
+1/25/2017 4:48:20 PM
+Bad Data Format
+*********************************************
+1/25/2017 4:48:20 PM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit04(String AUDNO, String USRID, String LOGNO, String LINENO, String BARCODE, String ITEMS, String AUD_Q, String NOTES, String ITEMS_NAME, String ACT_BARCD, String AISLESNO, String BAYNO, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 220
+   at SND.Models.StockAudit2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 159
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/25/2017 4:50:38 PM
+Input string was not in a correct format.
+*********************************************
+1/25/2017 4:50:38 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.StockAuditDAO.InsertAudit04(String AUDNO, String USRID, String LOGNO, String LINENO, String BARCODE, String ITEMS, String AUD_Q, String NOTES, String ITEMS_NAME, String ACT_BARCD, String AISLESNO, String BAYNO, String REFNO)
+*********************************************
+1/25/2017 4:50:38 PM
+Bad Data Format
+*********************************************
+1/25/2017 4:50:38 PM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit04(String AUDNO, String USRID, String LOGNO, String LINENO, String BARCODE, String ITEMS, String AUD_Q, String NOTES, String ITEMS_NAME, String ACT_BARCD, String AISLESNO, String BAYNO, String REFNO)
+   at SND.Models.StockAudit2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 162
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/25/2017 4:53:58 PM
+Input string was not in a correct format.
+*********************************************
+1/25/2017 4:53:58 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.StockAuditDAO.InsertAudit04(String AUDNO, String USRID, String LOGNO, String LINENO, String BARCODE, String ITEMS, String AUD_Q, String NOTES, String ITEMS_NAME, String ACT_BARCD, String AISLESNO, String BAYNO, String REFNO)
+*********************************************
+1/25/2017 4:53:58 PM
+Bad Data Format
+*********************************************
+1/25/2017 4:53:58 PM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit04(String AUDNO, String USRID, String LOGNO, String LINENO, String BARCODE, String ITEMS, String AUD_Q, String NOTES, String ITEMS_NAME, String ACT_BARCD, String AISLESNO, String BAYNO, String REFNO)
+   at SND.Models.StockAudit2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 162
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 198
+*********************************************
+1/25/2017 5:01:45 PM
+ORA-00979: not a GROUP BY expression
+
+*********************************************
+1/25/2017 5:01:45 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.StockAuditDAO.AuditClubProducts(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 104
+   at DAL.ProductInformationQueryDMLs.GetAuditProductsFromNo(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 384
+*********************************************
+1/25/2017 5:07:48 PM
+ORA-01400: cannot insert NULL into ("CHASE"."STR_AUDIT_02"."USRID")
+
+*********************************************
+1/25/2017 5:07:48 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAuditProducts(String AUDno, String USRID, String LOGNO, String LINEno, String ITEMS, String COM_Q, String PHY_Q, String SHT_Q, String EXC_Q, String COSTP, String TRADP, String AMONT, String NOTES, String BARCODE, String ITEMS_NAME, String S2DL, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 172
+*********************************************
+1/25/2017 5:07:48 PM
+Bad Data Format
+*********************************************
+1/25/2017 5:07:48 PM
+   at DAL.DataAccess.StockAuditDAO.InsertAuditProducts(String AUDno, String USRID, String LOGNO, String LINEno, String ITEMS, String COM_Q, String PHY_Q, String SHT_Q, String EXC_Q, String COSTP, String TRADP, String AMONT, String NOTES, String BARCODE, String ITEMS_NAME, String S2DL, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\StockAuditDAO.cs:line 182
+   at SND.Models.StockAudit2.RefershAuditPart(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 228
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 234
+*********************************************
+1/25/2017 5:15:25 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/25/2017 5:15:25 PM
+   at SND.Models.StockAudit2.RefershAuditPart(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 193
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 234
+*********************************************
+1/25/2017 5:17:00 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/25/2017 5:17:00 PM
+   at SND.Models.StockAudit2.RefershAuditPart(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\StockAudit2.cs:line 193
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 234
+*********************************************
+1/25/2017 5:20:28 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/25/2017 5:29:12 PM
+   SELECT NVL(round(SUM(Im.Amont)/30,2),0)  FROM( Select * from SAL_POS_DD_01_03_2017 UNION ALL  Select * from SAL_POS_DD_10_12_2016) im
+ WHERE im.ITEMS  IN (SELECT ITEMS FROM SAL_PRODS_BARCODE_LIST  WHERE BARCODE ='0745938030513')
+    and im.compc  =  '1'
+     AND IM.Brnch = '002'
+      AND im.wdate BETWEEN '26-Dec-2016' AND '25-Jan-2017' 
+*********************************************
+1/25/2017 5:29:26 PM
+   SELECT NVL(round(SUM(Im.Amont)/30,2),0)  FROM( Select * from SAL_POS_DD_01_03_2017 UNION ALL  Select * from SAL_POS_DD_10_12_2016) im
+ WHERE im.ITEMS  IN (SELECT ITEMS FROM SAL_PRODS_BARCODE_LIST  WHERE BARCODE ='0745938030513')
+    and im.compc  =  '1'
+     AND IM.Brnch = '002'
+      AND im.wdate BETWEEN '26-Dec-2016' AND '25-Jan-2017' 
+*********************************************
+1/25/2017 5:38:40 PM
+ORA-12571: TNS:packet writer failure
+
+*********************************************

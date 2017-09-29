@@ -1,0 +1,79 @@
+1/22/2017 1:50:07 PM
+ORA-00936: missing expression
+
+*********************************************
+1/22/2017 1:50:07 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1492
+*********************************************
+1/22/2017 1:50:07 PM
+Bad Data Format
+*********************************************
+1/22/2017 1:50:07 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1501
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\GOODRECIEVE2.cs:line 226
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/22/2017 1:50:36 PM
+ORA-00936: missing expression
+
+*********************************************
+1/22/2017 1:50:36 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1492
+*********************************************
+1/22/2017 1:50:36 PM
+Bad Data Format
+*********************************************
+1/22/2017 1:50:36 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1501
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\GOODRECIEVE2.cs:line 226
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/22/2017 1:59:19 PM
+Column 'PO_NO' does not belong to table Table.
+*********************************************
+1/22/2017 1:59:19 PM
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at DAL.ProductInformationQueryDMLs.<>c.<ConvertGetPOWithAllFeildsDataRowToModel>b__18_0(DataRow row) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 607
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPOWithAllFeildsDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 676
+   at DAL.ProductInformationQueryDMLs.GetPODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 285
+*********************************************
+1/22/2017 1:59:19 PM
+Column 'PO_NO' does not belong to table Table.
+*********************************************
+1/22/2017 1:59:19 PM
+   at DAL.ProductInformationQueryDMLs.GetPODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 294
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\GOODRECIEVE2.cs:line 186
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/22/2017 2:00:57 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+1/22/2017 2:00:57 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.GetPurOrdDetail(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1404
+   at DAL.ProductInformationQueryDMLs.GetPODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 285
+*********************************************
+1/22/2017 2:01:03 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+1/22/2017 2:01:03 PM
+   at DAL.ProductInformationQueryDMLs.GetPODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 294
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\GOODRECIEVE2.cs:line 186
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************

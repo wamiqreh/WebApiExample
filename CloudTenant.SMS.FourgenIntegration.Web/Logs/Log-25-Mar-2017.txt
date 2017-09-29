@@ -1,0 +1,8 @@
+3/25/2017 3:15:35 PM
+ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+
+*********************************************
+3/25/2017 3:17:28 PM
+ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+
+*********************************************

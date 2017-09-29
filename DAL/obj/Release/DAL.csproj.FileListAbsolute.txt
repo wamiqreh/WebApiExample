@@ -1,0 +1,10 @@
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Release\DAL.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Release\DAL.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Release\Common.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Release\Helper.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Release\Common.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Release\Helper.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\obj\Release\DAL.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\obj\Release\DAL.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Release\log4net.dll

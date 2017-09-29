@@ -1,0 +1,109 @@
+2/16/2017 4:04:11 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:04:11 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 4:09:38 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:09:38 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 4:11:16 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:11:16 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 4:11:32 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:11:32 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 4:17:03 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:17:03 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 4:17:46 PM
+ORA-00907: missing right parenthesis
+
+*********************************************
+2/16/2017 4:17:46 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GETGRNAPPROVED(String no, String type) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1565
+   at DAL.ProductInformationQueryDMLs.CheckGRNApprov(String no, String type, String compc, String brnch, String barcode, String ITEMS) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 786
+   at DAL.ProductInformationQueryDMLs.CheckBarcodeisPresentANDisPResentinGRN(String barcode, String no, String type, String compc, String brnch, String ITEMS) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 857
+   at DAL.ProductInformationQueryDMLs.<>c__DisplayClass21_0.<ConvertGetBarcodeDetailsByGRNDataRowToModelForWeb>b__0(DataRow row) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 548
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetBarcodeDetailsByGRNDataRowToModelForWeb(EnumerableRowCollection`1 enumerableRowCollection, String no, String type, String compc, String brnch, String pono) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 649
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRNForWeb(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 362
+*********************************************
+2/16/2017 4:18:36 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:18:36 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 4:20:15 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:20:15 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 4:21:34 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:21:34 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 4:31:50 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 4:31:50 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 5:00:09 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 5:00:09 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 5:10:22 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 5:10:22 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 5:32:27 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 5:32:27 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 5:34:17 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 5:34:17 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/16/2017 5:36:22 PM
+Index was outside the bounds of the array.
+*********************************************
+2/16/2017 5:36:22 PM
+   at DAL.ProductInformationQueryDMLs.<>c__DisplayClass21_0.<ConvertGetBarcodeDetailsByGRNDataRowToModelForWeb>b__0(DataRow row) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 548
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetBarcodeDetailsByGRNDataRowToModelForWeb(EnumerableRowCollection`1 enumerableRowCollection, String no, String type, String compc, String brnch, String pono) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 649
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRNForWeb(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 362
+*********************************************
+2/16/2017 5:36:37 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/16/2017 5:36:37 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************

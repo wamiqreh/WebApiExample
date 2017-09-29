@@ -1,0 +1,42 @@
+2/7/2017 12:37:41 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/7/2017 12:37:41 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 344
+*********************************************
+2/7/2017 12:37:41 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/7/2017 12:37:41 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 353
+   at SND.BusinessObjects.RemoteSearchBO.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\SearchBO.cs:line 110
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\StoreController.cs:line 212
+*********************************************
+2/7/2017 12:38:11 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/7/2017 12:38:11 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 344
+*********************************************
+2/7/2017 12:38:15 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/7/2017 12:38:15 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 353
+   at SND.BusinessObjects.RemoteSearchBO.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\SearchBO.cs:line 110
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\StoreController.cs:line 212
+*********************************************
+2/7/2017 12:42:37 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/7/2017 12:42:37 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 344
+*********************************************
+2/7/2017 12:42:37 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/7/2017 12:42:37 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 353
+   at SND.BusinessObjects.RemoteSearchBO.GetBarcodeDetailsByGRN(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\SearchBO.cs:line 110
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\StoreController.cs:line 212
+*********************************************

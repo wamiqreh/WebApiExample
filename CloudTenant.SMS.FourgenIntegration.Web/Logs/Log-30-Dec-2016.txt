@@ -1,0 +1,342 @@
+12/30/2016 10:28:39 AM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/30/2016 10:28:40 AM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 100
+*********************************************
+12/30/2016 10:28:40 AM
+Bad Data Format
+*********************************************
+12/30/2016 10:28:40 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 109
+   at SND.Models.StockAudit.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit.cs:line 97
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 10:36:36 AM
+Input string was not in a correct format.
+*********************************************
+12/30/2016 10:36:37 AM
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at SND.Models.StockAudit2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit2.cs:line 93
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 179
+*********************************************
+12/30/2016 10:36:48 AM
+ORA-12899: value too large for column "GV"."STR_AUDIT_01"."AUDTP" (actual: 6, maximum: 1)
+
+*********************************************
+12/30/2016 10:36:48 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 100
+*********************************************
+12/30/2016 10:36:48 AM
+Bad Data Format
+*********************************************
+12/30/2016 10:36:48 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 109
+   at SND.Models.StockAudit.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit.cs:line 97
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 10:37:02 AM
+ORA-12899: value too large for column "GV"."STR_AUDIT_01"."AUDTP" (actual: 6, maximum: 1)
+
+*********************************************
+12/30/2016 10:37:02 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 100
+*********************************************
+12/30/2016 10:37:03 AM
+Bad Data Format
+*********************************************
+12/30/2016 10:37:03 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 109
+   at SND.Models.StockAudit.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit.cs:line 97
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 10:37:12 AM
+ORA-12899: value too large for column "GV"."STR_AUDIT_01"."AUDTP" (actual: 6, maximum: 1)
+
+*********************************************
+12/30/2016 10:37:12 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 100
+*********************************************
+12/30/2016 10:37:12 AM
+Bad Data Format
+*********************************************
+12/30/2016 10:37:12 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 109
+   at SND.Models.StockAudit.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit.cs:line 97
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 10:39:43 AM
+Input string was not in a correct format.
+*********************************************
+12/30/2016 10:39:44 AM
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at SND.Models.StockAudit2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit2.cs:line 93
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 179
+*********************************************
+12/30/2016 10:50:05 AM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/30/2016 10:50:05 AM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.StockAuditDAO.InsertAudit02(String AUDno, String USRID, String LOGNO, String LINEno, String ITEMS, String COM_Q, String PHY_Q, String SHT_Q, String EXC_Q, String COSTP, String TRADP, String AMONT, String NOTES, String BARCODE, String ITEMS_NAME, String S2DL, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 118
+*********************************************
+12/30/2016 10:50:05 AM
+Bad Data Format
+*********************************************
+12/30/2016 10:50:05 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit02(String AUDno, String USRID, String LOGNO, String LINEno, String ITEMS, String COM_Q, String PHY_Q, String SHT_Q, String EXC_Q, String COSTP, String TRADP, String AMONT, String NOTES, String BARCODE, String ITEMS_NAME, String S2DL, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 128
+   at SND.Models.StockAudit2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit2.cs:line 108
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 179
+*********************************************
+12/30/2016 11:06:32 AM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/30/2016 11:06:32 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit02(String AUDno, String USRID, String LOGNO, String LINEno, String ITEMS, String COM_Q, String PHY_Q, String SHT_Q, String EXC_Q, String COSTP, String TRADP, String AMONT, String NOTES, String BARCODE, String ITEMS_NAME, String S2DL, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 118
+*********************************************
+12/30/2016 11:06:38 AM
+Bad Data Format
+*********************************************
+12/30/2016 11:06:38 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit02(String AUDno, String USRID, String LOGNO, String LINEno, String ITEMS, String COM_Q, String PHY_Q, String SHT_Q, String EXC_Q, String COSTP, String TRADP, String AMONT, String NOTES, String BARCODE, String ITEMS_NAME, String S2DL, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 128
+   at SND.Models.StockAudit2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit2.cs:line 108
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 179
+*********************************************
+12/30/2016 11:11:44 AM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/30/2016 11:11:44 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit02(String AUDno, String USRID, String LOGNO, String LINEno, String ITEMS, String COM_Q, String PHY_Q, String SHT_Q, String EXC_Q, String COSTP, String TRADP, String AMONT, String NOTES, String BARCODE, String ITEMS_NAME, String S2DL, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 118
+*********************************************
+12/30/2016 11:14:02 AM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/30/2016 11:14:02 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit02(String AUDno, String USRID, String LOGNO, String LINEno, String ITEMS, String COM_Q, String PHY_Q, String SHT_Q, String EXC_Q, String COSTP, String TRADP, String AMONT, String NOTES, String BARCODE, String ITEMS_NAME, String S2DL, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 118
+*********************************************
+12/30/2016 11:14:08 AM
+Object reference not set to an instance of an object.
+*********************************************
+12/30/2016 11:14:08 AM
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 193
+*********************************************
+12/30/2016 11:21:36 AM
+ORA-02292: integrity constraint (GV.SYS_C00184253) violated - child record found
+
+*********************************************
+12/30/2016 11:21:36 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 100
+*********************************************
+12/30/2016 11:21:37 AM
+Bad Data Format
+*********************************************
+12/30/2016 11:21:37 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 109
+   at SND.Models.StockAudit.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit.cs:line 97
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 11:25:16 AM
+ORA-02292: integrity constraint (GV.SYS_C00184253) violated - child record found
+
+*********************************************
+12/30/2016 11:25:16 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 100
+*********************************************
+12/30/2016 11:25:16 AM
+Bad Data Format
+*********************************************
+12/30/2016 11:25:16 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 109
+   at SND.Models.StockAudit.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit.cs:line 97
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 11:25:24 AM
+ORA-02292: integrity constraint (GV.SYS_C00184253) violated - child record found
+
+*********************************************
+12/30/2016 11:25:24 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 100
+*********************************************
+12/30/2016 11:25:24 AM
+Bad Data Format
+*********************************************
+12/30/2016 11:25:25 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 109
+   at SND.Models.StockAudit.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit.cs:line 97
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 11:25:52 AM
+ORA-02292: integrity constraint (GV.SYS_C00184253) violated - child record found
+
+*********************************************
+12/30/2016 11:25:52 AM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 100
+*********************************************
+12/30/2016 11:25:52 AM
+Bad Data Format
+*********************************************
+12/30/2016 11:25:52 AM
+   at DAL.DataAccess.StockAuditDAO.InsertAudit01(String COMPC, String BRNCH, String USRID, String LOGNO, String AUDno, String WDATE, String PDATE, String AUD_S, String AUD_E, String ACTIV, String AUDTP, String AUD_B, String WHINC, String STR_F, String GODWN, String REFNO, String NOTES, String APROV, String DAMAG, String DMG_CODE) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\StockAuditDAO.cs:line 109
+   at SND.Models.StockAudit.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\StockAudit.cs:line 97
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 5:48:31 PM
+Stream was not readable.
+*********************************************
+12/30/2016 5:48:31 PM
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at System.IO.StreamReader..ctor(Stream stream)
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 165
+*********************************************
+12/30/2016 5:48:51 PM
+ORA-01756: quoted string not properly terminated
+
+*********************************************
+12/30/2016 5:48:51 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.TransferDAO.GetTRFIN(String grnno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferDAO.cs:line 100
+   at SND.Models.TransferIn.GetPK() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferIn.cs:line 75
+   at SND.Models.TransferIn.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferIn.cs:line 88
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 5:51:20 PM
+Object reference not set to an instance of an object.
+*********************************************
+12/30/2016 5:51:20 PM
+   at SND.Models.TransferIn.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferIn.cs:line 114
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 5:52:30 PM
+Object reference not set to an instance of an object.
+*********************************************
+12/30/2016 5:52:30 PM
+   at SND.Models.TransferIn.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferIn.cs:line 114
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 5:52:56 PM
+Object reference not set to an instance of an object.
+*********************************************
+12/30/2016 5:52:56 PM
+   at SND.Models.TransferIn.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferIn.cs:line 114
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 5:57:27 PM
+ORA-12899: value too large for column "GV"."STR_TRF_INS1"."GODWN" (actual: 5, maximum: 3)
+
+*********************************************
+12/30/2016 5:57:27 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01WOR(String compc, String brnch, String usrid, String logno, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferDAO.cs:line 148
+*********************************************
+12/30/2016 5:57:27 PM
+Bad Data Format
+*********************************************
+12/30/2016 5:57:27 PM
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01WOR(String compc, String brnch, String usrid, String logno, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferDAO.cs:line 157
+   at SND.Models.TransferIn.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferIn.cs:line 107
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 5:57:43 PM
+ORA-12899: value too large for column "GV"."STR_TRF_INS1"."GODWN" (actual: 5, maximum: 3)
+
+*********************************************
+12/30/2016 5:57:43 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01WOR(String compc, String brnch, String usrid, String logno, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferDAO.cs:line 148
+*********************************************
+12/30/2016 5:57:43 PM
+Bad Data Format
+*********************************************
+12/30/2016 5:57:43 PM
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01WOR(String compc, String brnch, String usrid, String logno, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferDAO.cs:line 157
+   at SND.Models.TransferIn.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferIn.cs:line 107
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/30/2016 5:58:38 PM
+ORA-12899: value too large for column "GV"."STR_TRF_INS1"."GODWN" (actual: 5, maximum: 3)
+
+*********************************************
+12/30/2016 5:58:38 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01WOR(String compc, String brnch, String usrid, String logno, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferDAO.cs:line 148
+*********************************************
+12/30/2016 5:58:38 PM
+Bad Data Format
+*********************************************
+12/30/2016 5:58:38 PM
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01WOR(String compc, String brnch, String usrid, String logno, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferDAO.cs:line 157
+   at SND.Models.TransferIn.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferIn.cs:line 107
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************

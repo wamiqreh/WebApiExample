@@ -1,0 +1,199 @@
+1/6/2017 1:26:21 PM
+ORA-00907: missing right parenthesis
+
+*********************************************
+1/6/2017 1:26:22 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\VS 2015 Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GETPOREMAIN(String grnno, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 881
+   at DAL.ProductInformationQueryDMLs.ChecekPOisApprovedANDQuantity(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 212
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__10_0(DataRow row) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 233
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 307
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 193
+*********************************************
+1/6/2017 1:26:24 PM
+ORA-00907: missing right parenthesis
+
+*********************************************
+1/6/2017 1:26:24 PM
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 202
+   at SND.BusinessObjects.RemoteSearchBO.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 88
+   at SND.Controllers.StoreController.GetPODetailsByPOOrSupplierNo() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 181
+*********************************************
+1/6/2017 2:55:35 PM
+ORA-00907: missing right parenthesis
+
+*********************************************
+1/6/2017 2:55:35 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText)
+   at DAL.DataAccess.ItemDAO.GETPOREMAIN(String grnno, String compc, String brnch)
+   at DAL.ProductInformationQueryDMLs.ChecekPOisApprovedANDQuantity(String pono, String apprv, String compc, String brnch)
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__10_0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection)
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param)
+*********************************************
+1/6/2017 4:07:33 PM
+The device is not ready.
+
+*********************************************
+1/6/2017 4:07:34 PM
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at SND.Controllers.SyncController.UploadSyncFile() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 67
+*********************************************
+1/6/2017 6:19:21 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/6/2017 6:19:21 PM
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__10_0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection)
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param)
+*********************************************
+1/6/2017 6:19:23 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/6/2017 6:19:23 PM
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param)
+   at SND.BusinessObjects.RemoteSearchBO.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 88
+   at SND.Controllers.StoreController.GetPODetailsByPOOrSupplierNo() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 181
+*********************************************
+1/6/2017 6:21:57 PM
+Input string was not in a correct format.
+*********************************************
+1/6/2017 6:21:57 PM
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DAL.ProductInformationQueryDMLs.CheckGRNisApproved(String pono, String apprv, String compc, String brnch)
+   at DAL.ProductInformationQueryDMLs.ChecekPOisApprovedANDQuantity(String pono, String apprv, String compc, String brnch)
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__12_0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection)
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param)
+*********************************************
+1/6/2017 6:21:58 PM
+Input string was not in a correct format.
+*********************************************
+1/6/2017 6:21:58 PM
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param)
+   at SND.BusinessObjects.RemoteSearchBO.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 88
+   at SND.Controllers.StoreController.GetPODetailsByPOOrSupplierNo() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 181
+*********************************************
+1/6/2017 6:23:34 PM
+Input string was not in a correct format.
+*********************************************
+1/6/2017 6:23:34 PM
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DAL.ProductInformationQueryDMLs.CheckGRNisApproved(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 214
+   at DAL.ProductInformationQueryDMLs.ChecekPOisApprovedANDQuantity(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 251
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__12_0(DataRow row) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 278
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 352
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 193
+*********************************************
+1/6/2017 6:23:36 PM
+Input string was not in a correct format.
+*********************************************
+1/6/2017 6:23:36 PM
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 202
+   at SND.BusinessObjects.RemoteSearchBO.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 88
+   at SND.Controllers.StoreController.GetPODetailsByPOOrSupplierNo() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 181
+*********************************************
+1/6/2017 6:24:34 PM
+Input string was not in a correct format.
+*********************************************
+1/6/2017 6:24:34 PM
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DAL.ProductInformationQueryDMLs.CheckGRNisApproved(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 214
+   at DAL.ProductInformationQueryDMLs.ChecekPOisApprovedANDQuantity(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 251
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__12_0(DataRow row) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 278
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 352
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 193
+*********************************************
+1/6/2017 6:24:36 PM
+Input string was not in a correct format.
+*********************************************
+1/6/2017 6:24:36 PM
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 202
+   at SND.BusinessObjects.RemoteSearchBO.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 88
+   at SND.Controllers.StoreController.GetPODetailsByPOOrSupplierNo() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 181
+*********************************************
+1/6/2017 6:26:53 PM
+Input string was not in a correct format.
+*********************************************
+1/6/2017 6:26:53 PM
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DAL.ProductInformationQueryDMLs.CheckGRNisApproved(String pono, String apprv, String compc, String brnch)
+   at DAL.ProductInformationQueryDMLs.ChecekPOisApprovedANDQuantity(String pono, String apprv, String compc, String brnch)
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__12_0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection)
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param)
+*********************************************
+1/6/2017 6:26:54 PM
+Input string was not in a correct format.
+*********************************************
+1/6/2017 6:26:54 PM
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param)
+   at SND.BusinessObjects.RemoteSearchBO.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 88
+   at SND.Controllers.StoreController.GetPODetailsByPOOrSupplierNo() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 181
+*********************************************
+1/6/2017 7:12:56 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/6/2017 7:12:56 PM
+   at DAL.ProductInformationQueryDMLs.CheckGRNisApproved(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 211
+   at DAL.ProductInformationQueryDMLs.ChecekPOisApprovedANDQuantity(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 250
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__12_0(DataRow row) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 277
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 351
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 193
+*********************************************
+1/6/2017 7:12:57 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/6/2017 7:12:57 PM
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 202
+   at SND.BusinessObjects.RemoteSearchBO.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 88
+   at SND.Controllers.StoreController.GetPODetailsByPOOrSupplierNo() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 181
+*********************************************
+1/6/2017 7:15:01 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/6/2017 7:15:01 PM
+   at DAL.ProductInformationQueryDMLs.CheckGRNisApproved(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 211
+   at DAL.ProductInformationQueryDMLs.ChecekPOisApprovedANDQuantity(String pono, String apprv, String compc, String brnch) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 250
+   at DAL.ProductInformationQueryDMLs.<ConvertGetPODetailByPOOrArticleNoDataRowToModel>b__12_0(DataRow row) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 277
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetPODetailByPOOrArticleNoDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 351
+   at DAL.ProductInformationQueryDMLs.GetPODetailsByPOOrSupplierNo(Object[] param) in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 193
+*********************************************

@@ -1,0 +1,386 @@
+12/27/2016 1:54:29 PM
+The device is not ready.
+
+*********************************************
+12/27/2016 1:54:29 PM
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 63
+*********************************************
+12/27/2016 2:30:01 PM
+ORA-02291: integrity constraint (GV.SYS_C00183953) violated - parent key not found
+
+*********************************************
+12/27/2016 2:30:01 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 691
+*********************************************
+12/27/2016 2:30:01 PM
+Bad Data Format
+*********************************************
+12/27/2016 2:30:01 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 700
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 77
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 87
+*********************************************
+12/27/2016 2:31:43 PM
+ORA-02291: integrity constraint (GV.SYS_C00183953) violated - parent key not found
+
+*********************************************
+12/27/2016 2:31:43 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 691
+*********************************************
+12/27/2016 2:31:43 PM
+Bad Data Format
+*********************************************
+12/27/2016 2:31:43 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 700
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 77
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 87
+*********************************************
+12/27/2016 4:15:06 PM
+ORA-02291: integrity constraint (GV.SYS_C00183953) violated - parent key not found
+
+*********************************************
+12/27/2016 4:15:07 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 718
+*********************************************
+12/27/2016 4:16:10 PM
+ORA-02291: integrity constraint (GV.SYS_C00183953) violated - parent key not found
+
+*********************************************
+12/27/2016 4:16:10 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 718
+*********************************************
+12/27/2016 4:16:19 PM
+Bad Data Format
+*********************************************
+12/27/2016 4:16:19 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 727
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 77
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 87
+*********************************************
+12/27/2016 4:26:04 PM
+ORA-02291: integrity constraint (GV.SYS_C00183953) violated - parent key not found
+
+*********************************************
+12/27/2016 4:26:04 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 718
+*********************************************
+12/27/2016 4:26:06 PM
+Bad Data Format
+*********************************************
+12/27/2016 4:26:06 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 727
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 77
+   at SND.Controllers.SyncController.UploadSyncFile() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 87
+*********************************************
+12/27/2016 4:27:25 PM
+ORA-02291: integrity constraint (GV.SYS_C00183953) violated - parent key not found
+
+*********************************************
+12/27/2016 4:27:25 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 718
+*********************************************
+12/27/2016 4:27:25 PM
+Bad Data Format
+*********************************************
+12/27/2016 4:27:25 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 727
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 77
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 167
+*********************************************
+12/27/2016 4:35:15 PM
+ORA-00923: FROM keyword not found where expected
+
+*********************************************
+12/27/2016 4:35:15 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 718
+*********************************************
+12/27/2016 4:35:15 PM
+Bad Data Format
+*********************************************
+12/27/2016 4:35:15 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 727
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 77
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 167
+*********************************************
+12/27/2016 5:04:42 PM
+ORA-01747: invalid user.table.column, table.column, or column specification
+
+*********************************************
+12/27/2016 5:04:42 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 738
+*********************************************
+12/27/2016 5:04:42 PM
+Bad Data Format
+*********************************************
+12/27/2016 5:04:42 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 747
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 287
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:09:05 PM
+ORA-00936: missing expression
+
+*********************************************
+12/27/2016 5:09:05 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 738
+*********************************************
+12/27/2016 5:09:05 PM
+Bad Data Format
+*********************************************
+12/27/2016 5:09:05 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 747
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 287
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:13:03 PM
+ORA-00957: duplicate column name
+
+*********************************************
+12/27/2016 5:13:03 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry)
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO)
+*********************************************
+12/27/2016 5:13:03 PM
+Bad Data Format
+*********************************************
+12/27/2016 5:13:03 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO)
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 287
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:13:58 PM
+ORA-00957: duplicate column name
+
+*********************************************
+12/27/2016 5:13:58 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry)
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO)
+*********************************************
+12/27/2016 5:13:59 PM
+Bad Data Format
+*********************************************
+12/27/2016 5:13:59 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO)
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 287
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:22:48 PM
+ORA-02291: integrity constraint (GV.SYS_C00184261) violated - parent key not found
+
+*********************************************
+12/27/2016 5:22:48 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 738
+*********************************************
+12/27/2016 5:22:48 PM
+Bad Data Format
+*********************************************
+12/27/2016 5:22:48 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv2(String GRN, String USRID, String LOGNO, String INS, String POL, String LINE, String ITEMS, String BATCH, String EXPDT, String RAT_G, String DIS_P, String COM_P, String GST_P, String SED_P, String CDT_P, String EXT_P, String DIS_A, String COM_A, String GST_A, String SED_A, String EXT_A, String CDT_A, String RAT_N, String ITMRT, String REQ_Q, String REC_Q, String BON_Q, String AMONT, String NOTES, String GROSV, String GST_B, String GST_W, String EDAGST_P, String EDAGST_A, String MARGIN_P, String MARGIN_A, String GST_FOC, String MARGIN_T, String APPLY_ON_ALL_ITEMS, String SHARE_FORMULA, String FOC_COST_SHARE, String BARCODE, String BARCODE_QTY, String LAST_COST, String PACK_QTY, String UNIT_QTY, String PACK_RATE, String GST_I, String CONSM, String MRP_G, String FRGHT_ITEMS, String EXPFN, String RBT_P, String RBT_A, String RAT_BR, String AMT_AR, String GPL, String VER, String RAT_F, String RATE, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 747
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 287
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:41:46 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/27/2016 5:41:47 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetGrn2(String lineno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 713
+   at SND.Models.GOODRECIEVE2.GetPK(String grn) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 169
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 298
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:42:05 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/27/2016 5:42:05 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetGrn2(String lineno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 713
+   at SND.Models.GOODRECIEVE2.GetPK(String grn) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 169
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 298
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:42:42 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/27/2016 5:42:42 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetGrn2(String lineno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 713
+   at SND.Models.GOODRECIEVE2.GetPK(String grn) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 169
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 298
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:43:34 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/27/2016 5:43:34 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetGrn2(String lineno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 713
+   at SND.Models.GOODRECIEVE2.GetPK(String grn) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 169
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 298
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:44:34 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/27/2016 5:44:34 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetGrn2(String lineno) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 713
+   at SND.Models.GOODRECIEVE2.GetPK(String grn) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 169
+   at SND.Models.GOODRECIEVE2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\JSONResponse.cs:line 298
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 169
+*********************************************
+12/27/2016 5:46:37 PM
+Index was outside the bounds of the array.
+*********************************************
+12/27/2016 5:46:37 PM
+   at DAL.SyncDMLs.DeleteNotNeeded(Object[] param) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\SyncDMLs.cs:line 43
+   at SND.BusinessObjects.SyncBO.DeleteNotNeeded(Object[] param) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\BusinessObjects\SyncBO.cs:line 33
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 188
+*********************************************
+12/27/2016 5:49:57 PM
+Index was outside the bounds of the array.
+*********************************************
+12/27/2016 5:49:57 PM
+   at DAL.SyncDMLs.DeleteNotNeeded(Object[] param) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\SyncDMLs.cs:line 43
+   at SND.BusinessObjects.SyncBO.DeleteNotNeeded(Object[] param) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\BusinessObjects\SyncBO.cs:line 33
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 188
+*********************************************
+12/27/2016 5:50:53 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/27/2016 5:50:53 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.DeleteNotNeeded(String ID, String REFNO, String TABLENAME, String IDCOULMN) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 762
+*********************************************
+12/27/2016 5:50:53 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/27/2016 5:50:53 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.DeleteNotNeeded(String ID, String REFNO, String TABLENAME, String IDCOULMN) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 762
+*********************************************
+12/27/2016 6:02:09 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/27/2016 6:02:09 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.DeleteNotNeeded(String ID, String REFNO, String TABLENAME, String IDCOULMN) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 762
+*********************************************
+12/27/2016 6:02:10 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/27/2016 6:02:10 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.DeleteNotNeeded(String ID, String REFNO, String TABLENAME, String IDCOULMN) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 762
+*********************************************
+12/27/2016 7:05:28 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/27/2016 7:05:28 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.DeleteNotNeeded(String ID, String REFNO, String TABLENAME, String IDCOULMN) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 762
+*********************************************
+12/27/2016 7:05:28 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/27/2016 7:05:28 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.DeleteNotNeeded(String ID, String REFNO, String TABLENAME, String IDCOULMN) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 762
+*********************************************
+12/27/2016 7:13:14 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/27/2016 7:13:14 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.DeleteNotNeeded(String ID, String REFNO, String TABLENAME, String IDCOULMN) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 762
+*********************************************
+12/27/2016 7:13:14 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/27/2016 7:13:14 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.ItemDAO.DeleteNotNeeded(String ID, String REFNO, String TABLENAME, String IDCOULMN) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 762
+*********************************************

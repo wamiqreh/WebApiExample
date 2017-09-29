@@ -1,0 +1,31 @@
+2/15/2017 11:10:33 AM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/15/2017 11:11:15 AM
+Index was outside the bounds of the array.
+*********************************************
+2/15/2017 11:11:15 AM
+   at DAL.SyncDMLs.DeleteNotNeeded(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\SyncDMLs.cs:line 64
+   at SND.BusinessObjects.SyncBO.DeleteNotNeeded(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\SyncBO.cs:line 33
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 192
+*********************************************
+2/15/2017 11:11:24 AM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/15/2017 11:11:53 AM
+Index was outside the bounds of the array.
+*********************************************
+2/15/2017 11:11:53 AM
+   at DAL.SyncDMLs.DeleteNotNeeded(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\SyncDMLs.cs:line 64
+   at SND.BusinessObjects.SyncBO.DeleteNotNeeded(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\SyncBO.cs:line 33
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 192
+*********************************************
+2/15/2017 11:11:59 AM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/15/2017 11:21:05 AM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/15/2017 11:21:47 AM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************

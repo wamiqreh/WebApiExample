@@ -1,0 +1,156 @@
+1/9/2017 1:12:45 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/9/2017 1:12:45 PM
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 1:14:11 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/9/2017 1:14:11 PM
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN()
+*********************************************
+1/9/2017 1:22:47 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/9/2017 1:22:47 PM
+   at SND.BusinessObjects.RemoteSearchBO.Dispose() in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 108
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 216
+*********************************************
+1/9/2017 1:25:00 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/9/2017 1:25:00 PM
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 1:32:15 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/9/2017 1:32:15 PM
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 2:02:07 PM
+Column 'UOMCCODE_INVENTORYNAME' does not belong to table Table.
+*********************************************
+1/9/2017 2:02:07 PM
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at DAL.ProductInformationQueryDMLs.<>c.<ConvertGetBarcodeDetailsByGRNDataRowToModel>b__13_0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetBarcodeDetailsByGRNDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection)
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+*********************************************
+1/9/2017 2:02:07 PM
+Column 'UOMCCODE_INVENTORYNAME' does not belong to table Table.
+*********************************************
+1/9/2017 2:02:07 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+   at SND.BusinessObjects.RemoteSearchBO.GetBarcodeDetailsByGRN(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 99
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 2:03:39 PM
+Column 'PRODUCTCLASSFICATIONCODENAME' does not belong to table Table.
+*********************************************
+1/9/2017 2:03:39 PM
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at DAL.ProductInformationQueryDMLs.<>c.<ConvertGetBarcodeDetailsByGRNDataRowToModel>b__13_0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetBarcodeDetailsByGRNDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection)
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+*********************************************
+1/9/2017 2:03:39 PM
+Column 'PRODUCTCLASSFICATIONCODENAME' does not belong to table Table.
+*********************************************
+1/9/2017 2:03:39 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+   at SND.BusinessObjects.RemoteSearchBO.GetBarcodeDetailsByGRN(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 99
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 2:04:13 PM
+Column 'PRODUCTHIERARCHYNAME' does not belong to table Table.
+*********************************************
+1/9/2017 2:04:13 PM
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at DAL.ProductInformationQueryDMLs.<>c.<ConvertGetBarcodeDetailsByGRNDataRowToModel>b__13_0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetBarcodeDetailsByGRNDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection)
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+*********************************************
+1/9/2017 2:04:13 PM
+Column 'PRODUCTHIERARCHYNAME' does not belong to table Table.
+*********************************************
+1/9/2017 2:04:13 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+   at SND.BusinessObjects.RemoteSearchBO.GetBarcodeDetailsByGRN(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 99
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 2:05:09 PM
+Column 'MARKETINGCODENAME' does not belong to table Table.
+*********************************************
+1/9/2017 2:05:09 PM
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at DAL.ProductInformationQueryDMLs.<>c.<ConvertGetBarcodeDetailsByGRNDataRowToModel>b__13_0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetBarcodeDetailsByGRNDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection)
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+*********************************************
+1/9/2017 2:05:09 PM
+Column 'MARKETINGCODENAME' does not belong to table Table.
+*********************************************
+1/9/2017 2:05:09 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+   at SND.BusinessObjects.RemoteSearchBO.GetBarcodeDetailsByGRN(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 99
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 3:15:45 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/9/2017 3:15:45 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText)
+   at DAL.DataAccess.ItemDAO.GETBARCODE(String barcode)
+   at DAL.ProductInformationQueryDMLs.CheckBarcodeisPresent(String barcode)
+   at DAL.ProductInformationQueryDMLs.CheckBarcodeisPresentANDisPResentinGRN(String barcode, String grn_no)
+   at DAL.ProductInformationQueryDMLs.<>c__DisplayClass13_0.<ConvertGetBarcodeDetailsByGRNDataRowToModel>b__0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DAL.ProductInformationQueryDMLs.ConvertGetBarcodeDetailsByGRNDataRowToModel(EnumerableRowCollection`1 enumerableRowCollection, String grnno)
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+*********************************************
+1/9/2017 3:15:46 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/9/2017 3:15:46 PM
+   at DAL.ProductInformationQueryDMLs.GetBarcodeDetailsByGRN(Object[] param)
+   at SND.BusinessObjects.RemoteSearchBO.GetBarcodeDetailsByGRN(Object[] param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 99
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 4:12:34 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/9/2017 4:12:34 PM
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************
+1/9/2017 5:24:34 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/9/2017 5:24:34 PM
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 210
+*********************************************

@@ -1,0 +1,272 @@
+1/24/2017 4:22:46 PM
+ORA-00900: invalid SQL statement
+
+*********************************************
+1/24/2017 4:22:46 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetBranch(String OUT) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1256
+   at SND.Models.TransferOut2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferOut2.cs:line 92
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/24/2017 5:40:58 PM
+Service Hiting
+*********************************************
+1/24/2017 5:41:17 PM
+Service Hiting
+*********************************************
+1/24/2017 5:42:18 PM
+SELECT SM.OUT_# ID,SM.COMPC COMPANYCODE, com_codename('COMPC', SM.COMPC ,'') AS COMPANYNAME, 
+                  SM.OUT_#   DOCUMENTNO, '' SALESORGCODE,'' AS SALESORGCODENAME, 
+                sm.brnch      OFFICECODE, com_codename('BRNCH', sm.brnch ,'') AS OFFICECODENAME,out_# DOCUMENTNO, 
+                      TO_CHAR(wdate,'DD-MON-YYYY') AS WORKDATE,'0' TRANSFERTYPE, 
+                     'OUT' AS TRANSFERTYPENAME, 
+                     sm.godwn WAREHOUSECODE, (select descr from str_go_downs j where j.godwn = sm.godwn ) AS WAREHOUSENAME, 
+                    sm.usrid USERCODESENTBY, (select descr from sec_username m where m.usrid = sm.usrid ) AS USERCODESENTBYNAME, 
+                   sm.str_t   OFFICECODESENTTO, com_codename('BRNCH', sm.snd_b ,'') AS OFFICESENTTONAME, 
+                  sm.dmg_code   STOCKSTATUSCODE, '' STOCKOUTTYPECODE, '' AS STOCKSTATUSTYPECODENAME, 
+                    '' REFERENCENO,sm.notes DETAILS, ''EXTRAFIELDS01, 
+                   ''  EXTRAFIELDS02,'' EXTRAFIELDS03,'' EXTRAFIELDS04, ''EXTRAFIELDS05,'' EXTRAFIELDS06,'' EXTRAFIELDS07, 
+                  ''    EXTRAFIELDS08,'' EXTRAFIELDS09,'' EXTRAFIELDS10,'' MAPCODE,'' REFERENCETABLECODE, ''REFERENCEDOCUMENTID 
+                FROM str_trf_out1 SM 
+                WHERE sm.compc  = '1' AND sm.brnch like '%' AND sm.out_#  ='000010.1617.1.001.TO'
+*********************************************
+1/24/2017 5:42:19 PM
+SELECT SM.OUT_# ID,SM.COMPC COMPANYCODE, com_codename('COMPC', SM.COMPC ,'') AS COMPANYNAME, 
+                  SM.OUT_#   DOCUMENTNO, '' SALESORGCODE,'' AS SALESORGCODENAME, 
+                sm.brnch      OFFICECODE, com_codename('BRNCH', sm.brnch ,'') AS OFFICECODENAME,out_# DOCUMENTNO, 
+                      TO_CHAR(wdate,'DD-MON-YYYY') AS WORKDATE,'0' TRANSFERTYPE, 
+                     'OUT' AS TRANSFERTYPENAME, 
+                     sm.godwn WAREHOUSECODE, (select descr from str_go_downs j where j.godwn = sm.godwn ) AS WAREHOUSENAME, 
+                    sm.usrid USERCODESENTBY, (select descr from sec_username m where m.usrid = sm.usrid ) AS USERCODESENTBYNAME, 
+                   sm.str_t   OFFICECODESENTTO, com_codename('BRNCH', sm.snd_b ,'') AS OFFICESENTTONAME, 
+                  sm.dmg_code   STOCKSTATUSCODE, '' STOCKOUTTYPECODE, '' AS STOCKSTATUSTYPECODENAME, 
+                    '' REFERENCENO,sm.notes DETAILS, ''EXTRAFIELDS01, 
+                   ''  EXTRAFIELDS02,'' EXTRAFIELDS03,'' EXTRAFIELDS04, ''EXTRAFIELDS05,'' EXTRAFIELDS06,'' EXTRAFIELDS07, 
+                  ''    EXTRAFIELDS08,'' EXTRAFIELDS09,'' EXTRAFIELDS10,'' MAPCODE,'' REFERENCETABLECODE, ''REFERENCEDOCUMENTID 
+                FROM str_trf_out1 SM 
+                WHERE sm.compc  = '1' AND sm.brnch like '%' AND sm.out_#  ='000010.1617.1.001.TO'
+*********************************************
+1/24/2017 5:42:34 PM
+Service Hiting
+*********************************************
+1/24/2017 5:42:40 PM
+SELECT SM.OUT_# ID,SM.COMPC COMPANYCODE, com_codename('COMPC', SM.COMPC ,'') AS COMPANYNAME, 
+                  SM.OUT_#   DOCUMENTNO, '' SALESORGCODE,'' AS SALESORGCODENAME, 
+                sm.brnch      OFFICECODE, com_codename('BRNCH', sm.brnch ,'') AS OFFICECODENAME,out_# DOCUMENTNO, 
+                      TO_CHAR(wdate,'DD-MON-YYYY') AS WORKDATE,'0' TRANSFERTYPE, 
+                     'OUT' AS TRANSFERTYPENAME, 
+                     sm.godwn WAREHOUSECODE, (select descr from str_go_downs j where j.godwn = sm.godwn ) AS WAREHOUSENAME, 
+                    sm.usrid USERCODESENTBY, (select descr from sec_username m where m.usrid = sm.usrid ) AS USERCODESENTBYNAME, 
+                   sm.str_t   OFFICECODESENTTO, com_codename('BRNCH', sm.snd_b ,'') AS OFFICESENTTONAME, 
+                  sm.dmg_code   STOCKSTATUSCODE, '' STOCKOUTTYPECODE, '' AS STOCKSTATUSTYPECODENAME, 
+                    '' REFERENCENO,sm.notes DETAILS, ''EXTRAFIELDS01, 
+                   ''  EXTRAFIELDS02,'' EXTRAFIELDS03,'' EXTRAFIELDS04, ''EXTRAFIELDS05,'' EXTRAFIELDS06,'' EXTRAFIELDS07, 
+                  ''    EXTRAFIELDS08,'' EXTRAFIELDS09,'' EXTRAFIELDS10,'' MAPCODE,'' REFERENCETABLECODE, ''REFERENCEDOCUMENTID 
+                FROM str_trf_out1 SM 
+                WHERE sm.compc  = '1' AND sm.brnch like '%' AND sm.out_#  ='00004.1617.1.002.TO'
+*********************************************
+1/24/2017 5:42:40 PM
+SELECT SM.OUT_# ID,SM.COMPC COMPANYCODE, com_codename('COMPC', SM.COMPC ,'') AS COMPANYNAME, 
+                  SM.OUT_#   DOCUMENTNO, '' SALESORGCODE,'' AS SALESORGCODENAME, 
+                sm.brnch      OFFICECODE, com_codename('BRNCH', sm.brnch ,'') AS OFFICECODENAME,out_# DOCUMENTNO, 
+                      TO_CHAR(wdate,'DD-MON-YYYY') AS WORKDATE,'0' TRANSFERTYPE, 
+                     'OUT' AS TRANSFERTYPENAME, 
+                     sm.godwn WAREHOUSECODE, (select descr from str_go_downs j where j.godwn = sm.godwn ) AS WAREHOUSENAME, 
+                    sm.usrid USERCODESENTBY, (select descr from sec_username m where m.usrid = sm.usrid ) AS USERCODESENTBYNAME, 
+                   sm.str_t   OFFICECODESENTTO, com_codename('BRNCH', sm.snd_b ,'') AS OFFICESENTTONAME, 
+                  sm.dmg_code   STOCKSTATUSCODE, '' STOCKOUTTYPECODE, '' AS STOCKSTATUSTYPECODENAME, 
+                    '' REFERENCENO,sm.notes DETAILS, ''EXTRAFIELDS01, 
+                   ''  EXTRAFIELDS02,'' EXTRAFIELDS03,'' EXTRAFIELDS04, ''EXTRAFIELDS05,'' EXTRAFIELDS06,'' EXTRAFIELDS07, 
+                  ''    EXTRAFIELDS08,'' EXTRAFIELDS09,'' EXTRAFIELDS10,'' MAPCODE,'' REFERENCETABLECODE, ''REFERENCEDOCUMENTID 
+                FROM str_trf_out1 SM 
+                WHERE sm.compc  = '1' AND sm.brnch like '%' AND sm.out_#  ='00004.1617.1.002.TO'
+*********************************************
+1/24/2017 5:43:01 PM
+SELECT SM.OUT_# ID,SM.COMPC COMPANYCODE, com_codename('COMPC', SM.COMPC ,'') AS COMPANYNAME, 
+                  SM.OUT_#   DOCUMENTNO, '' SALESORGCODE,'' AS SALESORGCODENAME, 
+                sm.brnch      OFFICECODE, com_codename('BRNCH', sm.brnch ,'') AS OFFICECODENAME,out_# DOCUMENTNO, 
+                      TO_CHAR(wdate,'DD-MON-YYYY') AS WORKDATE,'0' TRANSFERTYPE, 
+                     'OUT' AS TRANSFERTYPENAME, 
+                     sm.godwn WAREHOUSECODE, (select descr from str_go_downs j where j.godwn = sm.godwn ) AS WAREHOUSENAME, 
+                    sm.usrid USERCODESENTBY, (select descr from sec_username m where m.usrid = sm.usrid ) AS USERCODESENTBYNAME, 
+                   sm.str_t   OFFICECODESENTTO, com_codename('BRNCH', sm.snd_b ,'') AS OFFICESENTTONAME, 
+                  sm.dmg_code   STOCKSTATUSCODE, '' STOCKOUTTYPECODE, '' AS STOCKSTATUSTYPECODENAME, 
+                    '' REFERENCENO,sm.notes DETAILS, ''EXTRAFIELDS01, 
+                   ''  EXTRAFIELDS02,'' EXTRAFIELDS03,'' EXTRAFIELDS04, ''EXTRAFIELDS05,'' EXTRAFIELDS06,'' EXTRAFIELDS07, 
+                  ''    EXTRAFIELDS08,'' EXTRAFIELDS09,'' EXTRAFIELDS10,'' MAPCODE,'' REFERENCETABLECODE, ''REFERENCEDOCUMENTID 
+                FROM str_trf_out1 SM 
+                WHERE sm.compc  = '1' AND sm.brnch like '%' AND sm.out_#  ='00004.1617.1.002.TO'
+*********************************************
+1/24/2017 5:43:08 PM
+SELECT SM.OUT_# ID,SM.COMPC COMPANYCODE, com_codename('COMPC', SM.COMPC ,'') AS COMPANYNAME, 
+                  SM.OUT_#   DOCUMENTNO, '' SALESORGCODE,'' AS SALESORGCODENAME, 
+                sm.brnch      OFFICECODE, com_codename('BRNCH', sm.brnch ,'') AS OFFICECODENAME,out_# DOCUMENTNO, 
+                      TO_CHAR(wdate,'DD-MON-YYYY') AS WORKDATE,'0' TRANSFERTYPE, 
+                     'OUT' AS TRANSFERTYPENAME, 
+                     sm.godwn WAREHOUSECODE, (select descr from str_go_downs j where j.godwn = sm.godwn ) AS WAREHOUSENAME, 
+                    sm.usrid USERCODESENTBY, (select descr from sec_username m where m.usrid = sm.usrid ) AS USERCODESENTBYNAME, 
+                   sm.str_t   OFFICECODESENTTO, com_codename('BRNCH', sm.snd_b ,'') AS OFFICESENTTONAME, 
+                  sm.dmg_code   STOCKSTATUSCODE, '' STOCKOUTTYPECODE, '' AS STOCKSTATUSTYPECODENAME, 
+                    '' REFERENCENO,sm.notes DETAILS, ''EXTRAFIELDS01, 
+                   ''  EXTRAFIELDS02,'' EXTRAFIELDS03,'' EXTRAFIELDS04, ''EXTRAFIELDS05,'' EXTRAFIELDS06,'' EXTRAFIELDS07, 
+                  ''    EXTRAFIELDS08,'' EXTRAFIELDS09,'' EXTRAFIELDS10,'' MAPCODE,'' REFERENCETABLECODE, ''REFERENCEDOCUMENTID 
+                FROM str_trf_out1 SM 
+                WHERE sm.compc  = '1' AND sm.brnch like '%' AND sm.out_#  ='00004.1617.1.002.TO'
+*********************************************
+1/24/2017 5:51:18 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/24/2017 5:51:18 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetBranch(String docno, String table, String key) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1257
+   at SND.Models.TransferIn2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn2.cs:line 106
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/24/2017 5:51:55 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/24/2017 5:51:55 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetBranch(String docno, String table, String key) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1257
+   at SND.Models.TransferIn2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn2.cs:line 106
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/24/2017 5:52:25 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/24/2017 5:52:25 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetBranch(String docno, String table, String key) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1257
+   at SND.Models.TransferIn2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn2.cs:line 106
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/24/2017 5:52:57 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/24/2017 5:52:57 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.ItemDAO.GetBranch(String docno, String table, String key) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1257
+   at SND.Models.TransferIn2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn2.cs:line 106
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/24/2017 6:05:57 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/24/2017 6:05:57 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.ItemDAO.GetTODetail(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1462
+   at DAL.ProductInformationQueryDMLs.GetTODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 303
+*********************************************
+1/24/2017 6:07:06 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/24/2017 6:07:07 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.ItemDAO.GetTODetail(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\ItemDAO.cs:line 1462
+   at DAL.ProductInformationQueryDMLs.GetTODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 303
+*********************************************
+1/24/2017 6:07:08 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+1/24/2017 6:07:08 PM
+   at DAL.ProductInformationQueryDMLs.GetTODWithAlFeilds(Object[] param) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\ProductInformationQueryDMLs.cs:line 312
+   at SND.Models.TransferIn2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn2.cs:line 112
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 190
+*********************************************
+1/24/2017 6:53:27 PM
+ORA-00903: invalid table name
+
+*********************************************
+1/24/2017 6:53:27 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.TransferOutDAO.GetSNT_BY(String docno) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferOutDAO.cs:line 61
+   at SND.Models.TransferIn.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn.cs:line 138
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************
+1/24/2017 7:01:06 PM
+ORA-00947: not enough values
+
+*********************************************
+1/24/2017 7:01:06 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno, String sentby, String outdate) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferDAO.cs:line 138
+*********************************************
+1/24/2017 7:01:11 PM
+Bad Data Format
+*********************************************
+1/24/2017 7:01:11 PM
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno, String sentby, String outdate) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferDAO.cs:line 147
+   at SND.Models.TransferIn.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn.cs:line 150
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************
+1/24/2017 7:06:38 PM
+ORA-00917: missing comma
+
+*********************************************
+1/24/2017 7:06:38 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno, String sentby, String outdate) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferDAO.cs:line 138
+*********************************************
+1/24/2017 7:06:42 PM
+Bad Data Format
+*********************************************
+1/24/2017 7:06:42 PM
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno, String sentby, String outdate) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferDAO.cs:line 147
+   at SND.Models.TransferIn.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn.cs:line 150
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************
+1/24/2017 7:07:44 PM
+ORA-00917: missing comma
+
+*********************************************
+1/24/2017 7:07:44 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno, String sentby, String outdate) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferDAO.cs:line 138
+*********************************************
+1/24/2017 7:07:44 PM
+Bad Data Format
+*********************************************
+1/24/2017 7:07:44 PM
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno, String sentby, String outdate) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferDAO.cs:line 147
+   at SND.Models.TransferIn.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn.cs:line 150
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************
+1/24/2017 7:13:25 PM
+ORA-00927: missing equal sign
+
+*********************************************
+1/24/2017 7:13:26 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno, String sentby, String outdate) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferDAO.cs:line 138
+*********************************************
+1/24/2017 7:13:26 PM
+Bad Data Format
+*********************************************
+1/24/2017 7:13:26 PM
+   at DAL.DataAccess.TransferDAO.InsertTRFIN01(String compc, String brnch, String usrid, String logno, String outNO, String wdate, String PDATE, String STR_F, String SNT_B, String STR_T, String Snd_c, String SND_B, String Godwn, String NOTES, String APROV, String DMG_CODE, String REFNO, String inno, String sentby, String outdate) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\TransferDAO.cs:line 147
+   at SND.Models.TransferIn.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\TransferIn.cs:line 150
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 187
+*********************************************

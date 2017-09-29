@@ -1,0 +1,60 @@
+1/4/2017 7:50:00 PM
+ORA-02291: integrity constraint (GV.FK_STR_GOODSR_1_BILTO) violated - parent key not found
+
+*********************************************
+1/4/2017 7:50:00 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO, String PONO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 859
+*********************************************
+1/4/2017 7:50:00 PM
+Bad Data Format
+*********************************************
+1/4/2017 7:50:00 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO, String PONO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 868
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\GOODRECIEVE.cs:line 78
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 187
+*********************************************
+1/4/2017 7:50:32 PM
+ORA-02291: integrity constraint (GV.FK_STR_GOODSR_1_BILTO) violated - parent key not found
+
+*********************************************
+1/4/2017 7:50:32 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO, String PONO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 859
+*********************************************
+1/4/2017 7:50:32 PM
+Bad Data Format
+*********************************************
+1/4/2017 7:50:32 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO, String PONO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 868
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\GOODRECIEVE.cs:line 78
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 187
+*********************************************
+1/4/2017 7:53:14 PM
+ORA-02291: integrity constraint (GV.FK_STR_GOODSR_1_BILTO) violated - parent key not found
+
+*********************************************
+1/4/2017 7:53:14 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO, String PONO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 859
+*********************************************
+1/4/2017 7:53:14 PM
+Bad Data Format
+*********************************************
+1/4/2017 7:53:14 PM
+   at DAL.DataAccess.ItemDAO.InsertGoodRcv1(String COMPC, String BRNCH, String USRID, String LOGNO, String GRN, String WDATE, String ACTIV, String DTYPE, String REC_B, String STR_F, String GODWN, String SUPCD, String PTERM, String CURCD, String CURAT, String DCHNO, String BILCM, String BILTY, String TRUCK, String NOTES, String APROV, String UPDATE_TP, String IDATE, String BILDS, String BILDT, String FRGHT, String BILTO, String PRNST, String VER, String GTYPE, String GC_NO, String BLADJ, String REFNO, String PONO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 868
+   at SND.Models.GOODRECIEVE.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\GOODRECIEVE.cs:line 78
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 187
+*********************************************

@@ -1,0 +1,173 @@
+1/18/2017 2:00:25 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 50
+*********************************************
+1/18/2017 2:00:35 PM
+Value cannot be null.
+Parameter name: source
+*********************************************
+1/18/2017 2:00:35 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 75
+   at SND.BusinessObjects.LoginBO.GetLogininfoByCredentials(String username, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\LoginBO.cs:line 147
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 55
+*********************************************
+1/18/2017 2:01:02 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 50
+*********************************************
+1/18/2017 2:01:08 PM
+Value cannot be null.
+Parameter name: source
+*********************************************
+1/18/2017 2:01:08 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 75
+   at SND.BusinessObjects.LoginBO.GetLogininfoByCredentials(String username, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\LoginBO.cs:line 147
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 55
+*********************************************
+1/18/2017 2:01:22 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 50
+*********************************************
+1/18/2017 2:01:22 PM
+Value cannot be null.
+Parameter name: source
+*********************************************
+1/18/2017 2:01:22 PM
+   at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at LoginDMLs.GetLogininfoByCredentials(String emailAddress, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\LoginDMLs.cs:line 75
+   at SND.BusinessObjects.LoginBO.GetLogininfoByCredentials(String username, String password) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\BusinessObjects\LoginBO.cs:line 147
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 55
+*********************************************
+1/18/2017 2:57:04 PM
+ORA-00904: "D"."ACTIVEYN": invalid identifier
+
+*********************************************
+1/18/2017 2:57:04 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 59
+*********************************************
+1/18/2017 2:57:04 PM
+ORA-00904: "D"."ACTIVEYN": invalid identifier
+
+*********************************************
+1/18/2017 2:57:04 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 88
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 89
+*********************************************
+1/18/2017 2:58:27 PM
+ORA-00904: "APPPROV": invalid identifier
+
+*********************************************
+1/18/2017 2:58:27 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 59
+*********************************************
+1/18/2017 2:58:28 PM
+ORA-00904: "APPPROV": invalid identifier
+
+*********************************************
+1/18/2017 2:58:28 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 88
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 89
+*********************************************
+1/18/2017 3:04:34 PM
+ORA-00904: "ACTIVEYN": invalid identifier
+
+*********************************************
+1/18/2017 3:04:34 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 78
+*********************************************
+1/18/2017 3:04:34 PM
+ORA-00904: "ACTIVEYN": invalid identifier
+
+*********************************************
+1/18/2017 3:04:34 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 88
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 89
+*********************************************
+1/18/2017 3:05:48 PM
+ORA-01400: cannot insert NULL into ("GV"."SEC_USERLOGEDONDEVICES"."USERCODE")
+
+*********************************************
+1/18/2017 3:05:48 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 78
+*********************************************
+1/18/2017 3:05:49 PM
+ORA-01400: cannot insert NULL into ("GV"."SEC_USERLOGEDONDEVICES"."USERCODE")
+
+*********************************************
+1/18/2017 3:05:49 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 88
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 89
+*********************************************
+1/18/2017 3:48:33 PM
+ORA-12899: value too large for column "GV"."SEC_UPD_DEL_LOG"."NEW_VALUE" (actual: 152, maximum: 100)
+ORA-06512: at "GV.LOG_01294_SEC_USERLOGEDONDEVIC", line 41
+ORA-04088: error during execution of trigger 'GV.LOG_01294_SEC_USERLOGEDONDEVIC'
+
+*********************************************
+1/18/2017 3:48:33 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 78
+*********************************************
+1/18/2017 3:48:33 PM
+ORA-12899: value too large for column "GV"."SEC_UPD_DEL_LOG"."NEW_VALUE" (actual: 152, maximum: 100)
+ORA-06512: at "GV.LOG_01294_SEC_USERLOGEDONDEVIC", line 41
+ORA-04088: error during execution of trigger 'GV.LOG_01294_SEC_USERLOGEDONDEVIC'
+
+*********************************************
+1/18/2017 3:48:33 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 88
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 89
+*********************************************
+1/18/2017 4:08:04 PM
+ORA-12899: value too large for column "GV"."SEC_UPD_DEL_LOG"."NEW_VALUE" (actual: 152, maximum: 100)
+ORA-06512: at "GV.LOG_01294_SEC_USERLOGEDONDEVIC", line 41
+ORA-04088: error during execution of trigger 'GV.LOG_01294_SEC_USERLOGEDONDEVIC'
+
+*********************************************
+1/18/2017 4:08:04 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 78
+*********************************************
+1/18/2017 4:08:04 PM
+ORA-12899: value too large for column "GV"."SEC_UPD_DEL_LOG"."NEW_VALUE" (actual: 152, maximum: 100)
+ORA-06512: at "GV.LOG_01294_SEC_USERLOGEDONDEVIC", line 41
+ORA-04088: error during execution of trigger 'GV.LOG_01294_SEC_USERLOGEDONDEVIC'
+
+*********************************************
+1/18/2017 4:08:04 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 88
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 89
+*********************************************
+1/18/2017 4:36:43 PM
+ORA-01400: cannot insert NULL into ("GV"."COM_APROVAL_TRAN_1"."LOGNO")
+ORA-06512: at "GV.SEC_USERLO_01012017_31032017", line 94
+ORA-04088: error during execution of trigger 'GV.SEC_USERLO_01012017_31032017'
+
+*********************************************
+1/18/2017 4:36:43 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 78
+*********************************************
+1/18/2017 4:36:44 PM
+ORA-01400: cannot insert NULL into ("GV"."COM_APROVAL_TRAN_1"."LOGNO")
+ORA-06512: at "GV.SEC_USERLO_01012017_31032017", line 94
+ORA-04088: error during execution of trigger 'GV.SEC_USERLO_01012017_31032017'
+
+*********************************************
+1/18/2017 4:36:44 PM
+   at DAL.Provider.DBHelper.ExecuteNonQuery(CommandType cmdType, String cmdText) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\DBHelper.cs:line 440
+   at DAL.DataAccess.LoginDAO.IsDeviceRegistered(String userId, Decimal loginCode, String deviceId, String registrationId, String brandName, String modelName, String osVersion, String resolution, String companyId) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\LoginDAO.cs:line 88
+   at WebApplication1.Controllers.AccountController.Login() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\AccountController.cs:line 89
+*********************************************

@@ -1,0 +1,158 @@
+2/14/2017 12:39:04 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 12:39:05 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 12:39:25 PM
+ORA-12899: value too large for column "GV"."STR_INDENT_1"."STR_F" (actual: 6, maximum: 3)
+
+*********************************************
+2/14/2017 12:39:26 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.IndentDAO.InsertIndent01(String COMPC, String BRNCH, String USRID, String LOGNO, String INDNO, String WDATE, String ACTIV, String APROV, String REQBY, String STR_F, String STR_T, String RSNNO, String REFNO, String NOTES) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\IndentDAO.cs:line 114
+*********************************************
+2/14/2017 12:40:07 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 12:40:08 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 12:49:11 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 12:49:11 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 12:49:41 PM
+ORA-00900: invalid SQL statement
+
+*********************************************
+2/14/2017 12:49:41 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.IndentDAO.InsertIndent01(String COMPC, String BRNCH, String USRID, String LOGNO, String INDNO, String WDATE, String ACTIV, String APROV, String REQBY, String STR_F, String STR_T, String RSNNO, String REFNO, String NOTES) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\IndentDAO.cs:line 117
+*********************************************
+2/14/2017 12:49:41 PM
+Bad Data Format
+*********************************************
+2/14/2017 12:49:41 PM
+   at DAL.DataAccess.IndentDAO.InsertIndent01(String COMPC, String BRNCH, String USRID, String LOGNO, String INDNO, String WDATE, String ACTIV, String APROV, String REQBY, String STR_F, String STR_T, String RSNNO, String REFNO, String NOTES) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\IndentDAO.cs:line 126
+   at SND.Models.Indent.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\Intend.cs:line 105
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 221
+*********************************************
+2/14/2017 12:50:03 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 12:50:04 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 12:52:57 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 12:52:57 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 1:00:04 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 1:00:04 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 1:02:54 PM
+ORA-01400: cannot insert NULL into ("GV"."STR_INDENT_1"."EDATE")
+
+*********************************************
+2/14/2017 1:02:54 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry)
+   at DAL.DataAccess.IndentDAO.InsertIndent01(String COMPC, String BRNCH, String USRID, String LOGNO, String INDNO, String WDATE, String ACTIV, String APROV, String REQBY, String STR_F, String STR_T, String RSNNO, String REFNO, String NOTES)
+*********************************************
+2/14/2017 1:02:54 PM
+Bad Data Format
+*********************************************
+2/14/2017 1:02:54 PM
+   at DAL.DataAccess.IndentDAO.InsertIndent01(String COMPC, String BRNCH, String USRID, String LOGNO, String INDNO, String WDATE, String ACTIV, String APROV, String REQBY, String STR_F, String STR_T, String RSNNO, String REFNO, String NOTES)
+   at SND.Models.Indent.Insert() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\Intend.cs:line 105
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 221
+*********************************************
+2/14/2017 1:03:07 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 1:03:08 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 1:03:56 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 1:03:56 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 1:04:26 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/14/2017 1:04:26 PM
+   at SND.Models.Indent2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\Intend2.cs:line 110
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 224
+*********************************************
+2/14/2017 1:05:06 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 1:05:06 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 1:07:15 PM
+Object reference not set to an instance of an object.
+*********************************************
+2/14/2017 1:07:15 PM
+   at SND.Models.Indent2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\Intend2.cs:line 110
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 224
+*********************************************
+2/14/2017 1:07:22 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 1:07:22 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 1:08:32 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 1:08:32 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/14/2017 1:08:56 PM
+ORA-01400: cannot insert NULL into ("GV"."STR_INDENT_2"."EDATE")
+
+*********************************************
+2/14/2017 1:08:56 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.IndentDAO.InsertIndent02(String INDNO, String USRID, String LOGNO, String LINENO, String ITEMS, String I_H_Q, String IND_Q, String IND_R, String IND_V, String DELDT, String NOTES, String BARCODE, String TRADP, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\IndentDAO.cs:line 158
+*********************************************
+2/14/2017 1:08:56 PM
+Bad Data Format
+*********************************************
+2/14/2017 1:08:56 PM
+   at DAL.DataAccess.IndentDAO.InsertIndent02(String INDNO, String USRID, String LOGNO, String LINENO, String ITEMS, String I_H_Q, String IND_Q, String IND_R, String IND_V, String DELDT, String NOTES, String BARCODE, String TRADP, String REFNO) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\DataAccess\IndentDAO.cs:line 168
+   at SND.Models.Indent2.Insert(List`1 rp) in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Models\Intend2.cs:line 117
+   at SND.Controllers.SyncController.UnZipAndMerge() in D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\CloudTenant.SMS.FourgenIntegration.Web\Controllers\SyncController.cs:line 224
+*********************************************
+2/14/2017 1:09:19 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/14/2017 1:09:19 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************

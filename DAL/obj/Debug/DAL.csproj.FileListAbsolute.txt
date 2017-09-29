@@ -1,0 +1,10 @@
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Debug\DAL.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Debug\DAL.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Debug\Common.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Debug\Helper.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Debug\Common.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Debug\Helper.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\obj\Debug\DAL.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\obj\Debug\DAL.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\DAL\bin\Debug\log4net.dll

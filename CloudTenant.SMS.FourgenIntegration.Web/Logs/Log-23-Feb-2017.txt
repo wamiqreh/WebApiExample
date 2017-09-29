@@ -1,0 +1,24 @@
+2/23/2017 2:30:20 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/23/2017 2:32:36 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/23/2017 2:33:10 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/23/2017 2:35:58 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/23/2017 4:42:40 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/23/2017 4:42:46 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/23/2017 4:43:35 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************
+2/23/2017 6:50:11 PM
+select STOR# from str_stores_m   where  BRNCH   ='004' 
+*********************************************

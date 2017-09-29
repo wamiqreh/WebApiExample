@@ -1,0 +1,67 @@
+12/29/2016 4:12:03 PM
+ORA-00918: column ambiguously defined
+
+*********************************************
+12/29/2016 4:12:03 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 940
+   at DAL.DataAccess.TransferOutDAO.GetEMPLOYECode(String id) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferOutDAO.cs:line 66
+   at SND.Models.TransferOut.Insert() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferOut.cs:line 90
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 177
+*********************************************
+12/29/2016 4:25:29 PM
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+*********************************************
+12/29/2016 4:25:29 PM
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut2(String outno, String usrid, String logno, String lineno, String items, String batch, String notes, String barcode, String grlno, String indlno, String out_q, String bon_q, String costp, String tradp, String amont, String isu_q, String qty_in, String unitq, String pck_qty, String REFNO)
+*********************************************
+12/29/2016 4:25:30 PM
+Bad Data Format
+*********************************************
+12/29/2016 4:25:30 PM
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut2(String outno, String usrid, String logno, String lineno, String items, String batch, String notes, String barcode, String grlno, String indlno, String out_q, String bon_q, String costp, String tradp, String amont, String isu_q, String qty_in, String unitq, String pck_qty, String REFNO)
+   at SND.Models.TransferOut2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferOut2.cs:line 94
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 179
+*********************************************
+12/29/2016 4:32:16 PM
+ORA-00923: FROM keyword not found where expected
+
+*********************************************
+12/29/2016 4:32:16 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut2(String outno, String usrid, String logno, String lineno, String items, String batch, String notes, String barcode, String grlno, String indlno, String out_q, String bon_q, String costp, String tradp, String amont, String isu_q, String qty_in, String unitq, String pck_qty, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferOutDAO.cs:line 98
+*********************************************
+12/29/2016 4:32:16 PM
+Bad Data Format
+*********************************************
+12/29/2016 4:32:16 PM
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut2(String outno, String usrid, String logno, String lineno, String items, String batch, String notes, String barcode, String grlno, String indlno, String out_q, String bon_q, String costp, String tradp, String amont, String isu_q, String qty_in, String unitq, String pck_qty, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferOutDAO.cs:line 107
+   at SND.Models.TransferOut2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferOut2.cs:line 94
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 179
+*********************************************
+12/29/2016 4:33:39 PM
+ORA-00933: SQL command not properly ended
+
+*********************************************
+12/29/2016 4:33:39 PM
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at DAL.Provider.ConnClass.Execute_DML(String Qry) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\Provider\ConnUtility.cs:line 76
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut2(String outno, String usrid, String logno, String lineno, String items, String batch, String notes, String barcode, String grlno, String indlno, String out_q, String bon_q, String costp, String tradp, String amont, String isu_q, String qty_in, String unitq, String pck_qty, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferOutDAO.cs:line 97
+*********************************************
+12/29/2016 4:33:42 PM
+Bad Data Format
+*********************************************
+12/29/2016 4:33:42 PM
+   at DAL.DataAccess.TransferOutDAO.InsertTransferOut2(String outno, String usrid, String logno, String lineno, String items, String batch, String notes, String barcode, String grlno, String indlno, String out_q, String bon_q, String costp, String tradp, String amont, String isu_q, String qty_in, String unitq, String pck_qty, String REFNO) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\DAL\DataAccess\TransferOutDAO.cs:line 106
+   at SND.Models.TransferOut2.Insert(List`1 rp) in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Models\TransferOut2.cs:line 94
+   at SND.Controllers.SyncController.UnZipAndMerge() in C:\Users\Mirza_Fahad\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\Controllers\SyncController.cs:line 179
+*********************************************

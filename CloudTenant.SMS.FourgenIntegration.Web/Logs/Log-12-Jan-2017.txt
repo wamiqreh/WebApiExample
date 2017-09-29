@@ -1,0 +1,52 @@
+1/12/2017 1:30:19 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/12/2017 1:30:19 PM
+   at SND.Controllers.StoreController.GetSuppliers() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 237
+*********************************************
+1/12/2017 1:31:47 PM
+Object reference not set to an instance of an object.
+*********************************************
+1/12/2017 1:31:47 PM
+   at SND.Controllers.StoreController.GetSuppliers() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 242
+*********************************************
+1/12/2017 1:35:13 PM
+ORA-12170: TNS:Connect timeout occurred
+
+*********************************************
+1/12/2017 1:35:13 PM
+   at DAL.Provider.DBHelper.DataAdapter(CommandType cmdType, String cmdText) in D:\VS 2015 Projects\WebApplication1\DAL\Provider\DBHelper.cs:line 816
+   at DAL.DataAccess.ItemDAO.GetSupplierDetail() in D:\VS 2015 Projects\WebApplication1\DAL\DataAccess\ItemDAO.cs:line 1243
+   at DAL.ProductInformationQueryDMLs.GetSuppliersDML() in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 1230
+*********************************************
+1/12/2017 1:35:13 PM
+ORA-12170: TNS:Connect timeout occurred
+
+*********************************************
+1/12/2017 1:35:13 PM
+   at DAL.ProductInformationQueryDMLs.GetSuppliersDML() in D:\VS 2015 Projects\WebApplication1\DAL\ProductInformationQueryDMLs.cs:line 1236
+   at SND.BusinessObjects.RemoteSearchBO.GetSuppliersBO() in D:\VS 2015 Projects\WebApplication1\WebApplication1\BusinessObjects\SearchBO.cs:line 105
+   at SND.Controllers.StoreController.GetSuppliers() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 242
+*********************************************
+1/12/2017 6:47:17 PM
+ORA-12571: TNS:packet writer failure
+
+*********************************************
+1/12/2017 6:47:17 PM
+   at DAL.Provider.DBHelper.ExecuteScalar(CommandType cmdType, String cmdText)
+   at DAL.DataAccess.ItemDAO.GETBARCODE(String barcode)
+   at DAL.ProductInformationQueryDMLs.CheckBarcodeisPresent(String barcode)
+   at DAL.ProductInformationQueryDMLs.CheckBarcodeisPresentANDisPResentinGRN(String barcode, String no, String type)
+   at DAL.ProductInformationQueryDMLs.<>c__DisplayClass13_0.<ConvertGetBarcodeDetailsByGRNDataRowToModel>b__0(DataRow row)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   at SND.APIBase.SendToApp(Object param) in D:\VS 2015 Projects\WebApplication1\WebApplication1\Base\APIBase.cs:line 21
+   at SND.Controllers.StoreController.GetBarcodeDetailsByGRN() in D:\VS 2015 Projects\WebApplication1\WebApplication1\Controllers\StoreController.cs:line 212
+*********************************************

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{16445B45-C26F-4B7C-BE4F-9817E01DA017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{DC597B3E-768A-440C-9AE1-2CD080401F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E9B3124D-59CA-4000-994C-6C19ADCC1B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{66325682-E2CD-44BA-B148-E719DE0D1B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTenant.SMS.FourgenIntegration.Web", "CloudTenant.SMS.FourgenIntegration.Web\CloudTenant.SMS.FourgenIntegration.Web.csproj", "{1C53DFD6-FF04-4D6C-BF6C-743D95D6E30F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16445B45-C26F-4B7C-BE4F-9817E01DA017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16445B45-C26F-4B7C-BE4F-9817E01DA017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16445B45-C26F-4B7C-BE4F-9817E01DA017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16445B45-C26F-4B7C-BE4F-9817E01DA017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC597B3E-768A-440C-9AE1-2CD080401F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC597B3E-768A-440C-9AE1-2CD080401F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC597B3E-768A-440C-9AE1-2CD080401F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC597B3E-768A-440C-9AE1-2CD080401F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B3124D-59CA-4000-994C-6C19ADCC1B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B3124D-59CA-4000-994C-6C19ADCC1B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B3124D-59CA-4000-994C-6C19ADCC1B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B3124D-59CA-4000-994C-6C19ADCC1B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66325682-E2CD-44BA-B148-E719DE0D1B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66325682-E2CD-44BA-B148-E719DE0D1B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66325682-E2CD-44BA-B148-E719DE0D1B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66325682-E2CD-44BA-B148-E719DE0D1B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C53DFD6-FF04-4D6C-BF6C-743D95D6E30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C53DFD6-FF04-4D6C-BF6C-743D95D6E30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C53DFD6-FF04-4D6C-BF6C-743D95D6E30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C53DFD6-FF04-4D6C-BF6C-743D95D6E30F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.1.10.224:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BusinessLogic\\BusinessLogic.csproj
+		SccProjectName1 = BusinessLogic
+		SccLocalPath1 = BusinessLogic
+		SccProjectUniqueName2 = Common\\Common.csproj
+		SccProjectName2 = Common
+		SccLocalPath2 = Common
+		SccProjectUniqueName3 = DAL\\DAL.csproj
+		SccProjectName3 = DAL
+		SccLocalPath3 = DAL
+		SccProjectUniqueName4 = Helper\\Helper.csproj
+		SccProjectName4 = Helper
+		SccLocalPath4 = Helper
+		SccProjectUniqueName5 = CloudTenant.SMS.FourgenIntegration.Web\\CloudTenant.SMS.FourgenIntegration.Web.csproj
+		SccProjectName5 = CloudTenant.SMS.FourgenIntegration.Web
+		SccLocalPath5 = CloudTenant.SMS.FourgenIntegration.Web
+	EndGlobalSection
+EndGlobal

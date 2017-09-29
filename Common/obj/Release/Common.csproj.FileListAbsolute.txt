@@ -1,0 +1,5 @@
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\Common\bin\Release\Common.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\Common\bin\Release\Common.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\Common\obj\Release\Common.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\Common\obj\Release\Common.pdb

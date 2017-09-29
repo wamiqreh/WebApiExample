@@ -1,0 +1,12 @@
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\Common.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\DAL.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\Helper.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\Common.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\DAL.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\Helper.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\CloudTenantIntegration\CloudTenants.SMS.FourgenIntegration\BusinessLogic\bin\Debug\log4net.dll

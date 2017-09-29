@@ -1,0 +1,51 @@
+2/17/2017 8:41:30 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 8:41:51 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 8:42:26 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 8:43:32 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 8:49:32 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/17/2017 8:52:54 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/17/2017 8:54:07 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 8:55:45 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/17/2017 8:58:09 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 8:58:50 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
+2/17/2017 9:21:15 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 9:21:21 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 9:21:44 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 9:22:08 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 9:22:23 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 9:28:26 PM
+select STOR# from str_stores_m   where  BRNCH   ='1' 
+*********************************************
+2/17/2017 10:46:09 PM
+select STOR# from str_stores_m   where  BRNCH   ='002' 
+*********************************************
